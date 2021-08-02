@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'activities' => 'Események',
+    'auto_budget' => 'Automatikus beosztás',
+    'available' => 'Beosztható',
+    'category' => 'Kategória',
+    'confirm_delete_category' => 'Biztosan törlöd a kategóriát a perselyekkel együtt? A bennük lévő pénz visszakerül a beosztható pénzek közé.',
+    'confirm_delete_pig' => 'Biztosan törlöd a perselyt? A benne lévő pénz visszakerül a beosztható pénzek közé.',
+    'delete_category' => 'Kategória törlése',
+    'delete_pig' => 'Persely törlése',
+    'everything_budgeted' => 'Minden beosztva!',
+    'goal_leftover' => 'Cél eléréséhez',
+    'in_pig' => 'Perselyben',
+    'more' => 'További infó',
+    'no_search_result' => 'A keresésnek egy persely vagy kategória sem felel meg.',
+    'over_budgeted' => 'Túltervezted magad',
+    'payment' => 'Fizetés',
+    'pig' => 'Persely',
+    'pigs' => 'Perselyek',
+    'profile' => 'Profil',
+    'remove_deadline' => 'Határidő törlése',
+    'save' => 'Mentés',
+    'search' => 'Keresés',
+    'statistics' => 'Statisztika',
+];
