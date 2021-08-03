@@ -26,6 +26,8 @@
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;800&display=swap">
         </noscript>
 
+        <x-serviceworker />
+
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         @stack('template_linked_css')
