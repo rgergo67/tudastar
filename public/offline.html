@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Beosztom.hu</title>
+
+        <style>
+        </style>
+    </head>
+    <body style="text-align: center;">
+        <img src="/images/internet.png" style="width:100%; height: auto;max-width: 600px;margin: 10px auto;" />
+        <script>
+            window.addEventListener('load', function() {
+                function backOnline(event) {
+                    console.log('online');
+                    window.location.reload()
+                }
+                window.addEventListener('online', backOnline);
+            });
+        </script>
+    </body>
+</html>
+

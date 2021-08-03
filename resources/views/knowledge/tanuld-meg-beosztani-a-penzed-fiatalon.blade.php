@@ -30,7 +30,7 @@
 
 <h2>Hogy kezdjek bele?</h2>
 
-<p><x-a href="{{ route('register') }}">Regisztrálj</x-a> az oldalra, vagy <x-a href="{{ route('demo.create') }}">ide kattintva próbáld ki</x-a> az oldalt regisztráció nélkül. Ezt követően menj végig az <x-a href="{{ route('knowledge.show', 'elso-lepesek') }}">első lépéseken</x-a>. Amikor perselyeket hozol létre, kezdheted mindössze 4 darabbal:</p>
+<p><x-a href="{{ route('register') }}">Regisztrálj</x-a> az oldalra, vagy <x-a href="{{ route('demo.create') }}" rel="nofollow">ide kattintva próbáld ki</x-a> az oldalt regisztráció nélkül. Ezt követően menj végig az <x-a href="{{ route('knowledge.show', 'elso-lepesek') }}">első lépéseken</x-a>. Amikor perselyeket hozol létre, kezdheted mindössze 4 darabbal:</p>
 
 <ol>
     <li>Add össze a havi <strong>fix kiadásokat</strong> amiket muszáj kifizetni</li>

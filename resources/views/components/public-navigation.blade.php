@@ -19,13 +19,13 @@
                         <a href="{{ route('knowledge.index') }}" class="font-medium text-gray-500 hover:text-gray-900">
                             Tudástár
                         </a>
-                        <a href="{{ route('register') }}" class="font-medium text-gray-500 hover:text-gray-900">Regisztráció</a>
-                        <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500">Belépés</a>
+                        <a href="{{ route('register') }}" class="font-medium text-gray-500 hover:text-gray-900" rel="nofollow">Regisztráció</a>
+                        <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500" rel="nofollow">Belépés</a>
                     </div>
                 </div>
             </div>
 
-            <a href="{{ route('login') }}" class="flex items-center font-medium text-indigo-600 hover:text-indigo-500 md:hidden">Belépés</a>
+            <a href="{{ route('login') }}" rel="nofollow" class="flex items-center font-medium text-indigo-600 hover:text-indigo-500 md:hidden">Belépés</a>
 
             <!-- Hamburger -->
             <div class="-mr-2 flex items-center md:hidden col-span-1 justify-end">
@@ -49,10 +49,10 @@
             <x-responsive-nav-link href="/#kinek">Kinek?</x-responsive-nav-link>
 
             <x-responsive-nav-link href="/#ar">Ár</x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('register')">
+            <x-responsive-nav-link :href="route('register')" rel="nofollow">
                 Regisztráció
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('login')">
+            <x-responsive-nav-link :href="route('login')" rel="nofollow">
                 Belépés
             </x-responsive-nav-link>
         </div>

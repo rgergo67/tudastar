@@ -10,7 +10,7 @@
                 <p>Ha tetszik amit látsz, lehetőséged van a teszt fiókból valódi fiókot csinálni, hogy ne vesszenek el a felvitt adatok.</p>
 
                 <div class="flex items-center justify-end mt-10 rounded-md shadow">
-                    <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-indigo-600 bg-gray-100 hover:bg-white hover:shadow-lg md:py-4 md:text-lg md:px-10">
+                    <a href="{{ route('demo.create') }}" rel="nofollow" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-indigo-600 bg-gray-100 hover:bg-white hover:shadow-lg md:py-4 md:text-lg md:px-10">
                         Kipróbálom!
                     </a>
                 </div>

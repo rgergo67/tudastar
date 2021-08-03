@@ -27,11 +27,16 @@
   <lastmod>2021-06-29T19:38:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://tudastar.beosztom.hu/tudastar/az-oldalrol-bovebben</loc>
-  <lastmod>2021-06-29T19:38:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://tudastar.beosztom.hu/tudastar/az-oldalrol-bovebben</loc>
+    <lastmod>2021-06-29T19:38:15+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://tudastar.beosztom.hu/tudastar/csaladi-koltsegvetes-egyszeruen</loc>
+    <lastmod>2021-08-01T19:38:15+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 <url>
   <loc>https://tudastar.beosztom.hu/tudastar</loc>
   <lastmod>2021-06-29T19:38:15+00:00</lastmod>

@@ -7,7 +7,7 @@
                         <span class="sr-only">Persely</span>
                         <x-application-logo class="h-8 w-auto sm:h-10" />
                     </a>
-                    <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500 md:hidden">Belépés</a>
+                    <a href="{{ route('login') }}" rel="nofollow" class="font-medium text-indigo-600 hover:text-indigo-500 md:hidden">Belépés</a>
                     <div class="-mr-2 flex items-center md:hidden">
                         <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden');" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
@@ -28,7 +28,7 @@
 
                 <a href="#ar" class="font-medium text-gray-500 hover:text-gray-900">Ár</a>
 
-                <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500">Belépés</a>
+                <a href="{{ route('login') }}" rel="nofollow" class="font-medium text-indigo-600 hover:text-indigo-500">Belépés</a>
             </div>
         </nav>
     </div>
@@ -58,7 +58,7 @@
 
                 <a href="#ar" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Ár</a>
             </div>
-            <a href="{{ route('login') }}" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
+            <a href="{{ route('login') }}" rel="nofollow" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
                 Belépés
             </a>
         </div>

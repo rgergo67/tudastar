@@ -16,7 +16,7 @@
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
-                                <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
+                                <a href="{{ route('demo.create') }}" rel="nofollow" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
                                     Próbáld ki regisztráció nélkül!
                                 </a>
                             </div>
@@ -92,7 +92,7 @@
                         <h3 class="font-bold">Válaszd szét a vállalkozásod pénzét a sajátodtól!</h3>
                         <p class="mt-0 mb-4">Segítünk előre beosztani a vállalkozásod pénzét, hogy megelőzzük a meglepetéseket. </p>
 
-                        <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 mt-10 border border-transparent  rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:px-10">
+                        <a href="{{ route('demo.create') }}" rel="nofollow" class="w-full flex items-center justify-center px-8 py-3 mt-10 border border-transparent  rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:px-10">
                             Próbáld ki regisztráció nélkül!
                         </a>
                         <div class="text-center w-100 mt-6">
