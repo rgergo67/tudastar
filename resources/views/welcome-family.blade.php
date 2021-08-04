@@ -1,5 +1,5 @@
 <x-public-layout>
-    <x-seo title="Családi költségvetés egyszerűen | Beosztom.hu"
+    <x-seo title="Családi költségvetés egyszerűen"
            description=" Tervezd meg a családod költségvetését, jusson mindenre: étel, lakás, egészség, tanulás, kikapcsolódás. Használd fél évig, és döntsd el utána, hogy megéri-e az árát." />
     <!-- This example requires Tailwind CSS v2.0+ -->
     <div x-data="{ open: false }" class="relative bg-white overflow-hidden">

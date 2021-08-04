@@ -1,5 +1,5 @@
 <x-public-layout>
-    <x-seo title="Oszd be a pénzed egyszerűen | Beosztom.hu"
+    <x-seo title="Oszd be a pénzed egyszerűen"
            description="Egybefolyik a KATA vállalkozásod pénze a sajátoddal? Segítünk elkülöníteni a kettőt, és beosztani a pénzed! Használd fél évig, és döntsd el utána, hogy megéri-e az árát." />
 
     <!-- This example requires Tailwind CSS v2.0+ -->

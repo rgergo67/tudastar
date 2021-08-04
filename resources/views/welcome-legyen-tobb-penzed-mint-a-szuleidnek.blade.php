@@ -1,5 +1,5 @@
 <x-public-layout>
-    <x-seo title="Legyen több pénzed, mint a szüleidnek! | Beosztom.hu"
+    <x-seo title="Legyen több pénzed, mint a szüleidnek!"
            description="Egy diák kiadásai: buszjegy, koli díj, rezsi, kaja, tankönyvek, diákhitel. Ezek egy részére szüleid adnak pénzt, a maradékot diákmunkából kell majd kipótolnod. Mi ennek a pénznek a beosztásában segítünk." />
 
     <!-- This example requires Tailwind CSS v2.0+ -->
