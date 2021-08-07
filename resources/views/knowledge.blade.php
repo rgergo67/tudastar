@@ -41,6 +41,10 @@
                         :link="route('knowledge.show', 'csaladi-koltsegvetes-egyszeruen')"
                         description="Néha nehezebb a családi költségvetés elkészítése, mint vállalati. Mit tehetünk?" />
                 <x-blog-card
+                        title="Így működik a beosztom.hu"
+                        :link="route('knowledge.show', 'nullbazisu-koltsegvetes-tervezes')"
+                        description="Mi is az a nullbázisú költségvetés tervezés, és miért nem fogsz tudni élni nélküle, ha egyszer elkezded használni?" />
+                <x-blog-card
                         title="Tanuld meg beosztani a pénzed fiatalon"
                         :link="route('knowledge.show', 'tanuld-meg-beosztani-a-penzed-fiatalon')"
                         description="Kevés bevétel, sok kiadás. Mi a milliókhoz vezető úton az első lépés fiatalként?" />

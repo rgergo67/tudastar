@@ -68,6 +68,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://tudastar.beosztom.hu/tudastar/nullbazisu-koltsegvetes-tervezes</loc>
+  <lastmod>2021-08-06T08:38:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://tudastar.beosztom.hu/kapcsolat</loc>
   <lastmod>2021-06-29T19:38:15+00:00</lastmod>
   <priority>0.80</priority>
@@ -107,6 +112,11 @@
   <lastmod>2021-06-29T19:38:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+  <url>
+    <loc>https://tudastar.beosztom.hu/cikkek/vesztartalek-diohejban</loc>
+    <lastmod>2021-08-07T06:38:15+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
 <url>
   <loc>https://tudastar.beosztom.hu/tudastar/szamold-ossze-a-penzed</loc>
   <lastmod>2021-06-29T19:38:15+00:00</lastmod>

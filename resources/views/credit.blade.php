@@ -16,6 +16,7 @@
                     <li><x-a href="https://www.freepik.com/vectors/money">Money vector created by pch.vector - www.freepik.com</x-a></li>
                     <li><x-a href="https://www.freepik.com/vectors/business">Business vector created by pch.vector - www.freepik.com</x-a></li>
                     <li><x-a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</x-a></li>
+                    <li><x-a href="https://www.freepik.com/vectors/people">People vector created by pch.vector - www.freepik.com</x-a></li>
                 </ul>
             </div>
         </div>
