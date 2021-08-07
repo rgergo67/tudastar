@@ -1,5 +1,5 @@
 @section('seo')
-    <title>{{ $title }} | Brosztom.hu</title>
+    <title>{{ $title }} | Beosztom.hu</title>
 
     <meta name="description" content="{{ $description ?? "Csökkentsd az impulzus vásárlásaid, költekezz tudatosan, spórolj hatékonyan! Használd fél évig, és döntsd el utána, hogy megéri-e az árát." }}">
 
