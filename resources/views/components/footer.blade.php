@@ -9,7 +9,6 @@
                 <h4 class="text-xl text-gray-200 font-modlr tracking-wide font-bold leading-tight mb-3">Információk</h4>
                 <ul class="mb-3">
                     <li><a class="text-white hover:text-primary py-3 block" href="{{ route('aszf') }}">ÁSZF</a></li>
-                    <li><a class="text-white hover:text-primary py-3 block" href="{{ route('open_business.index') }}">Nyitott vállalkozás</a></li>
                     <li><a class="text-white hover:text-primary py-3 block" href="{{ route('contact') }}">Kapcsolat</a></li>
                 </ul>
                 <h4 class="text-xl text-gray-200 font-modlr tracking-wide font-bold leading-tight mb-3">Tematikus</h4>

@@ -2,7 +2,9 @@
 
 <h2>2. Kategóriák és perselyek</h2>
 
-<p>Regisztráció után egy teljesen üres felület fogad, ahol létrehozhatod első kategóriádat. A kategória arra való, hogy csoportokba rendezhesd a perselyeket.</p>
+<p>Első belépéskor egy kategória és persely varázs<span class="line-through">malac</span>ló fogad. Kiválasztod azt ami szimpatikus, mi pedig létrehozzuk őket. Ha minden kategóriát törölsz, ismét megjelenik a varázsló, így bármikor indulhatsz tiszta lappal.</p>
+
+<p>A kategória arra való, hogy csoportokba rendezhesd a perselyeket:</p>
 
 <figure>
     <picture>

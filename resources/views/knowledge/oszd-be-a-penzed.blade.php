@@ -4,7 +4,7 @@
 
 <p>Összeszámoltad a pénzed és létrehoztad a perselyeket. Nincs más hátra, mint beosztani a pénzt. Ha tudtál célokat beállítani a perselyekhez, akkor nincs nehéz dolgod, mindössze el kell döntened, hogy melyek a fontosak, és először azokba tenni.</p>
 
-<p>Ha szeretnéd, meg is jelölheted a fontosakat, sőt ha valamelyiknek határideje van, azt is beállíthatod (pl karácsonyra félre akarsz tenni 50.000-et ajándékra, vagy 4 hónap múlva jogsira kell 130.000 Ft). Ilyenkor segítségedre lehet a kis varázspálca a beosztható összeg mellett, ami segít beosztani a pénzed.</p>
+<p>Ha szeretnéd, meg is jelölheted a fontosakat, sőt, ha valamelyiknek határideje van, azt is beállíthatod (pl karácsonyra félre akarsz tenni 50.000-et ajándékra, vagy 4 hónap múlva jogsira kell 130.000 Ft). Ilyenkor segítségedre lehet a kis varázspálca a beosztható összeg mellett, ami segít beosztani a pénzed.</p>
 
 <figure>
     <picture>

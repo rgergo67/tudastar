@@ -20,7 +20,7 @@
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
-                                <a href="/#proba" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
+                                <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
                                     Próbáld ki regisztráció nélkül!
                                 </a>
                             </div>
@@ -92,12 +92,12 @@
 
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
-                                <a href="/#proba" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
+                                <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
                                     Próbáld ki regisztráció nélkül!
                                 </a>
                             </div>
                         </div>
-                        <div class="text-center w-100 mt-6">
+                        <div class="text-center w-100 mt-6 text-base">
                             <a href="{{ route('register') }}" class="text-indigo-600">Vagy regisztrálj egyből</a>
                         </div>
                     </div>
@@ -130,7 +130,6 @@
                         </ul>
                         <p><b>Nem ajánljuk,</b></p>
                         <ul>
-                            <li>- ha rendszeresen többféle valutát használsz</li>
                             <li>- ha automatikus banki szinkronizációra van szükséged</li>
                             <li>- ha évekre visszamenő statisztikákat szeretnél nézni</li>
                         </ul>
@@ -144,8 +143,6 @@
     </section>
 
     <x-welcome.price-section />
-
-    <x-welcome.demo-section />
 
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

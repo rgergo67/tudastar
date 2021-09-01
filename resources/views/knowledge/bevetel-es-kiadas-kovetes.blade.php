@@ -8,12 +8,12 @@
 
 <figure>
     <picture>
-        <img src="/images/tranzakcio.png" />
+        <img src="/images/tranzakcio.gif" />
     </picture>
     <figcaption>Ha a persely sorában az összegre kattintasz, megnyílik a tranzakció ablak.</figcaption>
 </figure>
 
-<p>A tranzakciós ablakban megmutatjuk, hogy mennyi beosztható pénzed van még, mennyi van a perselyben, és mennyi kell még a cél eléréséhez. Ha bármelyikre sorban rákattintasz az összegre, az egyből bekerül a beviteli mezőbe, így megspórolsz egy kis gépelést.</p>
+<p>A tranzakciós ablakban megmutatjuk, hogy mennyi beosztható pénzed van még, mennyi kell még a cél eléréséhez, mennyi volt az utolsó kiadás, és mennyit tettél bele utoljára. <strong>Ha bármelyikre sorban rákattintasz az összegre, az egyből bekerül a beviteli mezőbe</strong>, így megspórolsz egy kis gépelést.</p>
 
 <p>A három gomb amit látsz, balról jobbra a következő:</p>
 
@@ -24,6 +24,10 @@
 </ul>
 
 <p>A legnagyobb probléma általában az szokott lenni, hogy ha például a Lidl-ben vásároltál ételt, de betettél egy metszőollót és egy autó ablaktörlő folyadékot is a kosárba, akkor elő kell keresni a számlát és tételesen szétosztani a költségeket étel/kert/autó kategóriák között.</p>
+
+<p>Hogy ne kelljen külön számológépet használni, a + - * műveleteket is tudod használni, a program pedig az Összeg mező jobb felső sarkában mutatja az eredményt.</p>
+
+<x-figure name="koltsegvetes-kalkulator" title="Használhatsz + - * műveleteket és zárójelezést" />
 
 <p>Az igazság az, hogy csak rajtad múlik hogyan használod a programot. Ha nem akarsz ilyesmivel pepecselni, legyen egy sima vásárlás kategóriád, és amikor ilyen boltokba mész, mindegy mit veszel, használd ezt a perselyt, és csak akkor rögzítsd külön kategóriába a terméket, ha ez tényleg fontos, vagy nagy összegű. A kérdés mindig az, hogy "Mi a célod?". <x-a href="{{ route('knowledge.show', 'mi-a-celod') }}" target="_blank">Erről bővebben itt tudsz olvasni.</x-a></p>
 

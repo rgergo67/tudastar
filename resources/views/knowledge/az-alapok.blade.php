@@ -2,8 +2,6 @@
 
 <h2>Az alapok</h2>
 
-<p>Elöljáróban annyit, hogy nem vagyunk pénzügyi szakemberek. Elolvastunk sok-sok cikket a témában, és az ezekből leszűrt "lényeget" osztjuk itt meg. Ha mélyebben bele szeretnéd magad ásni, <x-a href="{{ route('knowledge.show', 'akiktol-mi-tanultunk') }}" target="_blank">akkor itt találod az általunk javasolt oldalakat</x-a>.</p>
-
 <h3>Adj munkát minden forintnak</h3>
 
 <p>Ha bevételt szerzel, döntsd el előre, hogy mire fogod használni, legyen szó fizetésről, pénz visszatérítésről, vagy az utcán talált 5.000 Ft-ról.</p>

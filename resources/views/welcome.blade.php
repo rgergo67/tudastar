@@ -12,7 +12,7 @@
                             <span class="block text-indigo-600 xl:inline">egyszerűen!</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                            Csökkentsd az impulzus vásárlásaid, költekezz tudatosan, spórolj hatékonyan! Használd fél évig, és döntsd el utána, hogy megéri-e az árát.
+                            Csökkentsd az impulzus vásárlásaid, költekezz tudatosan, spórolj hatékonyan!
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
@@ -49,13 +49,13 @@
                     <div class="mt-4 text-xl text-gray-800 text-left space-y-4">
                         <p><strong>Nincs egy forint vésztartalékod sem.</strong> Mi van, ha fél év táppénzre kényszerülsz, elveszíted az állásodat vagy valami váratlan, nagy kiadásod keletkezik?</p>
 
-                        <p>Rengeteget költesz az autóra, dohányzásra, ruhákra vagy játékokra. Hogyan lehetne, a <strong>függőségedre költött</strong> összegnek legalább egy részét a családodra fordítani?</p>
+                        <p>Rengeteget költesz az autóra, dohányzásra, ruhákra vagy játékokra. Hogyan lehetne a <strong>függőségedre költött</strong> összegnek legalább egy részét a családodra fordítani?</p>
 
                         <p><strong>Közös családi kasszán vagytok</strong>, és a párod elkölti azt a pénzt, amit magadra vagy a gyermekedre szántál. Tudod, hogy nem rosszindulatból csinálja, nehéz fejben tartani, hogy mire mennyi pénzt osztott be a másik.</p>
 
                         <p>A szüleid keményen dolgoznak, hogy te tanulhass. Fizetik a tandíjat, a kolit, a kaját, miközben bulizol, jól érzed magad, és bejársz órára. Hallottál már a <strong>pénzügyi függetlenség</strong>ről, de ötleted sincs hogyan vágj bele, hogy levedd a vállukról a terhet, és később te segíthess nekik.</p>
 
-                        <p>Egyszer a nyaralás viszi el a marketing pénzt, máskor úgy tűnik, hogy a vállalkzoásodat a főállásod fizetéséből finanszírozod. Hogyan különíthetnéd el a <strong>KATA vállalkozásod</strong> pénzét a sajátodtól, ha egy bankszámlán vannak?</p>
+                        <p>Egyszer a nyaralás viszi el a marketing pénzt, máskor úgy tűnik, hogy a vállalkzoásodat a főállásod fizetéséből finanszírozod. Hogyan különíthetnéd el a <strong>KATA vállalkozásod</strong> pénzét a sajátodtól, ha ugyanazon bankszámlán vannak?</p>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,6 @@
                         </ul>
                         <p><b>Nem ajánljuk,</b></p>
                         <ul>
-                            <li>- ha rendszeresen többféle valutát használsz</li>
                             <li>- ha automatikus banki szinkronizációra van szükséged</li>
                             <li>- ha évekre visszamenő statisztikákat szeretnél nézni</li>
                         </ul>
@@ -145,8 +144,6 @@
     </section>
 
     <x-welcome.price-section />
-
-    <x-welcome.demo-section />
 
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

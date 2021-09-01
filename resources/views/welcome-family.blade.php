@@ -1,6 +1,6 @@
 <x-public-layout>
     <x-seo title="Családi költségvetés egyszerűen"
-           description=" Tervezd meg a családod költségvetését, jusson mindenre: étel, lakás, egészség, tanulás, kikapcsolódás. Használd fél évig, és döntsd el utána, hogy megéri-e az árát." />
+           description=" Tervezd meg a családod költségvetését, jusson mindenre: étel, lakás, egészség, tanulás, kikapcsolódás." />
     <!-- This example requires Tailwind CSS v2.0+ -->
     <div x-data="{ open: false }" class="relative bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto">
@@ -15,11 +15,11 @@
                             <span class="block text-indigo-600 xl:inline">egyszerűen!</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                            Tervezd meg a családod költségvetését, jusson mindenre: étel, lakás, egészség, tanulás, kikapcsolódás.  Használd fél évig, és döntsd el utána, hogy megéri-e az árát.
+                            Tervezd meg a családod költségvetését, jusson mindenre: étel, lakás, egészség, tanulás, kikapcsolódás.
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
-                                <a href="/#proba" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
+                                <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
                                     Próbáld ki regisztráció nélkül!
                                 </a>
                             </div>
@@ -85,16 +85,19 @@
                         <p class="mt-0 mb-4">Havi néhány ezer forintból is lehet vésztartalékot képezni, csak kitartás kell és egy kis segítség!</p>
 
                         <h3 class="font-bold">Mindig tudd, miből költesz!</h3>
-                        <p class="mt-0 mb-4">Tervezés után már <em>csak</em> tartani kell magatokat hozzá. Szemben egy kockás füzettel, ez a program mindig ott a telefonon, így egyszerűen meg tudod nézni, hogy ez a kiadás be lett-e tervezve, és ha nem, akkor minek a "kárára" fogsz költeni.</p>
+                        <p class="mt-0 mb-4">Tervezés után már <em>csak</em> tartani kell magatokat hozzá. Szemben egy kockás füzettel, ez az alkalmazás mindig ott a telefonon, így egyszerűen meg tudod nézni, hogy ez a kiadás be lett-e tervezve, és ha nem, akkor minek a "kárára" fogsz költeni.</p>
+
+                        <h3 class="font-bold">Egy fiók az egész családnak!</h3>
+                        <p class="mt-0 mb-4">Egy fiókon belül külön költségvetése lehet anyának és apának, így akkor sem kell 2 regisztráció, ha külön kasszán vagytok.</p>
 
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
-                                <a href="/#proba" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
+                                <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
                                     Próbáld ki regisztráció nélkül!
                                 </a>
                             </div>
                         </div>
-                        <div class="text-center w-100 mt-6">
+                        <div class="text-center w-100 mt-6 text-base">
                             <a href="{{ route('register') }}" class="text-indigo-600">Vagy regisztrálj egyből</a>
                         </div>
                     </div>
@@ -127,9 +130,8 @@
                         </ul>
                         <p><b>Nem ajánljuk,</b></p>
                         <ul>
-                            <li>- ha rendszeresen többféle valutát használtok</li>
                             <li>- ha automatikus banki szinkronizációra van szükségetek</li>
-                            <li>- ha évekre visszamenő statisztikákat szeretnél nézni</li>
+                            <li>- ha évekre visszamenő statisztikákat szeretnétek nézni</li>
                         </ul>
                     </div>
                 </div>
@@ -141,8 +143,6 @@
     </section>
 
     <x-welcome.price-section />
-
-    <x-welcome.demo-section />
 
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -16,10 +16,6 @@
 <a class="anchor" id="honaprol-honapra"></a>
 <h3>1. Hónapról hónapra élek</h3>
 
-<p>Itt fáj a legjobban a szívünk, mert azokon, akik alapból keveset keresnek, vagy nagy családot kell eltartaniuk és eddig is mindenen spóroltak, valószínűleg nem tudunk segíteni. Nekik még pluszban fizetni ezért a programért, valószínűleg felesleges.</p>
-
-<p>Elsősorban akkor tudunk segíteni, ha nem nélkülözöl: minden hónapban kijössz a pénzedből, eljársz mondjuk moziba, kávézni, van hobbid, viszont nincs megtakarításod, és ha elveszítenéd a munkahelyed, akkor az nagyon, nagyon, NAGGYON rosszul érintene.</p>
-
 <p>Ilyen esetben a legfontosabb egy vésztartalék képzése, ami jó esetben a 6 havi fizetésed. Mennyi?!?! Igen, 6 havi fizetésed. Félre lehet ennyit tenni, csak kicsiben kell kezdeni. Erre az egyik legjobb megoldás a pénz előre történő beosztása.</p>
 
 <p>Egyik pillanatról a másikra megváltozni, ha nem is lehetetlen, de nagyon nehéz. Hozd létre a Vésztartalék perselyt, állítsd be a 6 havi fizetést célösszegnek, és minden hónapban a fizetésed egy részét tedd bele. Ha csak 10.000 Ft-ot, akkor annyit, és bármi történik, ne nyúlj hozzá, ez a pénz innentől nem létezik.</p>

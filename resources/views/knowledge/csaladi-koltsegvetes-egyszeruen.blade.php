@@ -69,7 +69,7 @@
 
 <p>Ezt szépen lassan bővítsétek az igényeknek megfelelően. Ha a vésztartalék megtelt, kezdjetek el hitelt törleszteni, vagy más hosszútávú célokra gyűjteni.</p>
 
-<p>Amennyiben közös családi kasszán vagytok pároddal, használjátok mindketten ugyanazt a fiókot. Sok veszekedést megspórolhattoka azzal, ha látjátok mit tervezett be a másik, és nem költitek el véletlenül sem az arra szánt összeget.</p>
+<p>Amennyiben közös családi kasszán vagytok pároddal, használjátok mindketten ugyanazt a fiókot, csak külön-külön költségvetést. Sok veszekedést megspórolhattok azzal, ha látjátok mit tervezett be a másik, és nem költitek el véletlenül sem az arra szánt összeget.</p>
 
 <p>Kezdjetek el gyűjteni hosszútávra, minél hamarabb! Akkor is, ha csak havi pár ezer forintot tudtok félretenni a gyerek egyetemi tanulmányaira, vagy magatoknak öreg korotokra. A pénzt ne párnahuzatban tartsátok, hanem legalább egy részét babakötvényben, állampapírban, vagy ha értetek a befektetéshez, akkor abban, ami szerintetek értékálló.</p>
 

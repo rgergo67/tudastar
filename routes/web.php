@@ -11,8 +11,6 @@ Route::group(['middleware' => ['page-cache']], function () {
     Route::view('/csaladi-koltsegvetes', 'welcome-family')->name('welcome-family');
     Route::view('/legyen-tobb-penzed-mint-a-szuleidnek', 'welcome-legyen-tobb-penzed-mint-a-szuleidnek')->name('welcome-legyen-tobb-penzed-mint-a-szuleidnek');
 
-    Route::get('nyitott-vallalkozas', [OpenBusinessController::class, 'index'])->name('open_business.index');
-
     Route::get('tudastar/{document}', KnowledgeController::class)->name('knowledge.show');
     Route::view('tudastar', 'knowledge')->name('knowledge.index');
 

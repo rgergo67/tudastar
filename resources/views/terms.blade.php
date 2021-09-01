@@ -28,8 +28,6 @@
 
                 <p>Fizetni a Barion segítségével tudsz bankkártyával, számlát a fizetést követően állítunk ki. Ha esetleg utalni szeretnél, a {{ config('mail.from.address') }} címen tudod ezt jelezni.</p>
 
-                <p>Ez egy nyitott vállalkozás, a költségeinket, bevételeinket és jótékonykodásunkat itt tudod követni: <a href="https://beosztom.hu/nyilvanos-vallalkozas">Nyitott vállalkozás</a></p>
-
                 <h2>Második rész</h2>
 
                 <p>A beosztom.hu weboldal böngészésével és használatával Ön tudomásul veszi a honlap használatára és szolgáltatásaira vonatkozó általános szerződési és felhasználási feltételeket, az adatkezelési feltételeket és azokat magára nézve kötelezőnek ismeri el, és minden pontjával egyetért. Kérem, amennyiben vásárlója, illetve aktív felhasználója kíván lenni portálunknak, figyelmesen olvassa el az alábbiakat és kizárólag abban az esetben vegye igénybe a szolgáltatásokat,  amennyiben  minden pontjával egyetért,  és  kötelező érvényűnek  tekinti magára  nézve.  Tudomásul veszi, hogy regisztráció esetén a jelen ÁSZF elfogadása nyilatkozatnak minősül és fizetési kötelezettséget von maga után, amennyiben meg van elégedve a szolgáltatással. Amennyiben elégedetlen, a féléves díjat megfizetni nem köteles, ebben az esetben az oldal további használatára nem jogosult. Jelen dokumentum elektronikus formában kerül megkötésre,  nem kerül iktatásra. Magatartási kódexre nem utal. Amennyiben a Szerződési és felhasználási feltételek elolvasása után további kérdése lenne, kérjük, hogy vegye fel velünk a kapcsolatot az alábbi elérhetőségek valamelyikén!</p>
@@ -60,7 +58,7 @@
 
                 <h3>Regisztráció</h3>
 
-                <p>Beosztom.hu oldalon regisztráció nélkül a Tudástárban lévő tartalom illetve a nyitott vállalkozásról szóló információk érhetőek el. Regisztrációt követően érhető el a pénz beosztását segítő szolgáltatás.</p>
+                <p>Beosztom.hu oldalon regisztráció nélkül a Tudástárban lévő tartalom érhető el. Regisztrációt követően érhető el a pénz beosztását segítő szolgáltatás.</p>
 
                 <h3>Fizetés menete</h3>
 

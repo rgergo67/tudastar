@@ -13,6 +13,10 @@
                         title="Vésztartalék, dióhéjban"
                         :link="route('articles.show', 'vesztartalek-diohejban')"
                         description="A vésztartalék létrehozása az egyik legjobb pénzügyi döntésed lehet, ezek a lépései." />
+                <x-blog-card
+                        title="Pénzügyi haditerv"
+                        :link="route('articles.show', 'penzugyi-haditerv')"
+                        description="Egy hasonlat, ami segíthet a beosztom.hu könnyebb megértésében" />
             </div>
         </div>
     </div>

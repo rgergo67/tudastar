@@ -1,6 +1,6 @@
 <x-public-layout>
     <x-seo title="Oszd be a pénzed egyszerűen"
-           description="Egybefolyik a KATA vállalkozásod pénze a sajátoddal? Segítünk elkülöníteni a kettőt, és beosztani a pénzed! Használd fél évig, és döntsd el utána, hogy megéri-e az árát." />
+           description="Egybefolyik a KATA vállalkozásod pénze a sajátoddal? Segítünk elkülöníteni a kettőt, és beosztani a pénzed!" />
 
     <!-- This example requires Tailwind CSS v2.0+ -->
     <div x-data="{ open: false }" class="relative bg-white overflow-hidden">
@@ -16,18 +16,18 @@
                             <span class="block text-indigo-600 xl:inline">vállalkozásod pénzét!</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                            Egybefolyik a KATA vállalkozásod pénze a sajátoddal? Segítünk a kettő elkülönítésében, és a pénzed beosztásában! Használd fél évig, és döntsd el utána, hogy megéri-e az árát.
+                            Egybefolyik a KATA vállalkozásod pénze a sajátoddal? Segítünk a kettő elkülönítésében, és a pénzed beosztásában!
                         </p>
 
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
-                                <a href="/#proba" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
+                                <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
                                     Próbáld ki regisztráció nélkül!
                                 </a>
                             </div>
                         </div>
                         <div class="text-center w-100 mt-6">
-                            <a href="{{ route('knowledge.show', 'csaladi-koltsegvetes-egyszeruen') }}" class="text-indigo-600">Vagy olvass róla bővebben</a>
+                            <a href="{{ route('register') }}" class="text-indigo-600">Vagy regisztrálj egyből</a>
                         </div>
                     </div>
                 </main>
@@ -54,7 +54,7 @@
                     <div class="mt-4 text-xl text-gray-800 text-left space-y-4">
                         <p>KATA vállalkozóként a saját, személyes bankszámládat használod a vállalkozásodhoz.</p>
 
-                        <p>Ez kényelmes, ugyanakkor sokkal nehezebben elkülöníteni a vállalkozás pénzét a saját vagyontól. Egyszer a nyaralás viszi el a marketingre szánt pénzt, máskor úgy tűnik, hogy lassan a főállásod fizetéséből finanszírozod a vállalkozásodat.</p>
+                        <p>Ez kényelmes, ugyanakkor sokkal nehezebb elkülöníteni a vállalkozás pénzét a saját vagyonodtól. Egyszer a nyaralás viszi el a marketingre szánt pénzt, máskor úgy tűnik, hogy lassan a főállásod fizetéséből finanszírozod a vállalkozásodat.</p>
 
                         <p>Gyakran merülnek fel benned, hogy</p>
 
@@ -87,25 +87,22 @@
                     </p>
                     <div class="mt-4 text-xl text-gray-800 text-left">
                         <h3 class="font-bold">Válaszd szét a vállalkozásod pénzét a sajátodtól!</h3>
-                        <p class="mt-0 mb-4">Segítünk előre beosztani a vállalkozásod pénzét, hogy megelőzzük a meglepetéseket.</p>
+                        <p class="mt-0 mb-4">Teljesen külön költségvetése lesz a vállalkozásodnak, és külön neked.</p>
 
-                        <h3 class="font-bold">Mindent a maga helyére!</h3>
-                        <p class="mt-0 mb-4">Ha a vállalkozásodban keletkezik bevételed, azt egyből vállalkozói perselyekbe "fekteted be", ha pedig főállásodban kapsz fizetést, azt a személyes perselyekhez társítod.</p>
+                        <h3 class="font-bold">Tegyél félre fejlesztésre!</h3>
+                        <p class="mt-0 mb-4">Külön perselyed lehet befektetésre, amibe minden bevételből csepegtetsz egy kicsit, így lesz miből fejleszteni a vállalkozásod.</p>
 
                         <h3 class="font-bold">Titkosított adattárolás</h3>
-                        <p class="mt-0 mb-4">A perselyek és kategóriák nevét, az összegeket és minden megjegyzést titkosítva tárolunk az adatbázisban.</p>
-
-                        <h3 class="font-bold">Nyitott vállalkozás</h3>
-                        <p class="mt-0 mb-4">A beosztom.hu költségvetése nyilvános, <x-a href="{{ route('open_business.index') }}">itt tekintheted meg</x-a>, ha érdekel.</p>
+                        <p class="mt-0 mb-4">A perselyek és kategóriák nevét, az összegeket és minden megjegyzést titkosítva tárolunk.</p>
 
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
-                                <a href="/#proba" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
+                                <a href="{{ route('demo.create') }}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
                                     Próbáld ki regisztráció nélkül!
                                 </a>
                             </div>
                         </div>
-                        <div class="text-center w-100 mt-6">
+                        <div class="text-center w-100 mt-6 text-base">
                             <a href="{{ route('register') }}" class="text-indigo-600">Vagy regisztrálj egyből</a>
                         </div>
                     </div>
@@ -138,7 +135,6 @@
                         </ul>
                         <p><b>Nem ajánljuk,</b></p>
                         <ul>
-                            <li>- ha rendszeresen többféle valutát használsz</li>
                             <li>- ha automatikus banki szinkronizációra van szükséged</li>
                             <li>- ha évekre visszamenő statisztikákat szeretnél nézni</li>
                         </ul>
@@ -152,8 +148,6 @@
     </section>
 
     <x-welcome.price-section />
-
-    <x-welcome.demo-section />
 
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

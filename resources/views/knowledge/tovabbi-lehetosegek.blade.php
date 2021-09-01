@@ -2,6 +2,12 @@
 
 <h2>További lehetőségek</h2>
 
+<h3>Költségvetések</h3>
+
+<p>A költségvetés olyan, mintha egy külön fiókod lenne: külön beosztható pénz, kategóriák, perselyek, statisztika és események. Az alkalmazás bal felső részén látsz egy malacot egy nyíllal, ezt lenyitva tudsz váltogatni köztük, vagy újat létrehozni.</p>
+
+<p>Mire jó egy költségvetés? Külön költségvetést tudsz létrehozni a család egyes tagjainak anélkül, hogy mindenkinek külön fiókot kellene regisztrálni. Vagy lehet külön költségvetése a vállalkozásodnak, és külön a saját pénzednek. De teheted külön költségvetésbe a forintban és az euróban levő pénzedet is.</p>
+
 <h3>Keresés</h3>
 
 <p>Ha teheted, rögzítsd minél hamarabb a kiadásod, hogy véletlenül se maradjon el. Ehhez nem árt, ha egyszerűen megtalálod a perselyt, amihez az oldal jobb alsó sarkában lévő kereső lesz segítségedre.</p>
