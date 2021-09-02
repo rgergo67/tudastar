@@ -128,3 +128,7 @@
 <p>Az alkalmazás további funkcióiról <x-a href="{{ route('knowledge.show', 'tovabbi-lehetosegek') }}">itt találsz leírást</x-a>.</p>
 
 <p>Ha valami nem világos, a <x-a href="{{ route('knowledge.index') }}" target="_blank">Tudástár</x-a> cikkeit érdemes átnézni, de nyugodtan válaszolj bármelyik e-mailünkre, és megválaszoljuk a kérdésed. </p>
+
+<div class="relative" style="padding-top: 56.25%">
+    <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/57D4CPJXwXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
