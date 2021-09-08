@@ -6,23 +6,17 @@
             <div class="w-full sm:max-w-7xl mt-6 p-6 bg-white shadow-md overflow-hidden sm:rounded-lg prose lg:prose-lg">
                 <h1>Általános szerződési feltételek</h1>
 
-                <p>Ez a dokumentum két részből áll, egy közérthető elsőből, és egy szokásos jogi részből. Természetesen mindkettőt olvasd el, hisze az egész vonatkozni fog rád, ha elfogadod, és regisztrálsz az oldalra.</p>
+                <p>Ez a dokumentum két részből áll, egy közérthető elsőből, és egy szokásos jogi részből. Természetesen mindkettőt olvasd el, hiszen az egész vonatkozni fog rád, ha elfogadod, és regisztrálsz az oldalra.</p>
 
                 <h2>Első rész</h2>
 
                 <p>Ratting Gergely vagyok, azért készítettem az oldalt, hogy saját pénzügyi problémámra megoldást nyújtsak. Úgy gondoltam, ez hasznos lehet másnak is, ezért az oldalt elérhetővé tettem a beosztom.hu címen.</p>
 
-                <p>Ahhoz, hogy használhasd, regisztrálnod kell, mely során nevedet és e-mail címedet tároljuk el. A program használata során kategóriákat és perselyeket hozhatsz létre, melyekbe virtuálisan beoszthatod a pénzed. A kategóriák és perselyek nevei, valamint a bennük tárolt összeg az adatbázisban titkosítva kerül letárolásra.</p>
+                <p>Ahhoz, hogy használhasd, regisztrálnod kell, mely során nevedet és e-mail címedet tároljuk el. A program használata során kategóriákat és perselyeket hozhatsz létre, melyekbe virtuálisan beoszthatod a pénzed. Az adatok titkosított merevlemezen vannak tárolva.</p>
 
-                <p>A programot regisztrációtól számítva fél évig tudod használni fizetés nélkül, amikor is megkérdezzük, hogy meg vagy-e elégedve. Amennyiben igen, az elmúlt fél év használati díját kifizetheted, és további fél évig használhatod a programot.</p>
+                <p>A programot 2 napig anonim módon tudod tesztelni, utána minden adatot törlünk. Amennyiben tetszik amit láttál, hosszabbíthatsz 30 nappal, ez olyan, mintha regisztrálnál egy új fiókot, csak a próba időszak adatai nem vesznek el. A 30 nap során bármikor előfizethetsz 1 évre, melyet a 30 nap lejártának végétől fogunk számítani. Előfizetés meghosszabbítására 120 napod van, utána adataidat töröljük.</p>
 
-                <p>Azért ezt a megoldás választottuk, mert egy spórolást segítő pénzügyi alkalmazásra valószínűleg olyanok regisztrálnak, akik nem szeretnének látatlanban előre kiadni egy fél éves előfizetést. Ezért utólag fizetheted ki a szolgáltatás árát, azt is csak akkor kell, ha hasznosnak találod.</p>
-
-                <p>1 hónap áll rendelkezésedre az összeg megfizetésére, ezt követően még 1 hónapig tároljuk adataidat, ha esetleg baleset ért, vagy más okból nem jutottál gép elé az adott időszakban.</p>
-
-                <p>Ha fél év lejárta után 67 nappal még mindig nem fizettél a használatért, akkor feltételezzük, hogy nem találtad hasznosnak a programot, és minden hozzád tartozó adatot autómatikusan töröl rendszerünk.</p>
-
-                <p>Hírlevelet és reklámokat nem küldünk az e-mail címedre, kizárólag az üzemeltetéshez szükséges információkat (e-mail cím visszaigazolás, értesítés fizetésről, számla).</p>
+                <p>Hírlevelet és reklámokat nem küldünk az e-mail címedre, kizárólag az üzemeltetéshez szükséges információkat (e-mail cím visszaigazolás, értesítés fizetésről, számla). Amennyiben kérsz mégis értesítést akciókról tippekről, akkor a profil menüpont alatt tudod engedélyezni ezt.</p>
 
                 <p>Nem helyezünk el reklámokat az oldalon.</p>
 
@@ -62,7 +56,7 @@
 
                 <h3>Fizetés menete</h3>
 
-                <p>Az oldal használatáért fél év után kell csak fizetni, amennyiben a szolgáltatással a Vevő meg van elégedve.</p>
+                <p>Az oldal használatáért 1 évre előre lehet fizetni. Amennyiben a nem fizetés meghaladja a 14 napot, a fiók felfüggesztett állapotba kerül, és kizárólag a fizetés menüpont lesz elérhető. Ha az előfizetés lejárta után 120 nappal nem kerül hosszabbításra az előfizetés, a fiók és minden hozzá tartozó adat véglegesen törlésre kerül.</p>
 
                 <h4>Barion fizetés (bankkártyával)</h4>
 
@@ -73,12 +67,12 @@
                 <p><a href="https://beosztom.hu/barion/">A Barionról további részletek itt.</a></p>
 
                 <h4>Banki utalás</h4>
-                <p>A féléves használat díját utalással is ki tudja egyenlíteni, amennyiben ezt előre jelzi a {{ config('mail.from.address') }} címen. Utalni a Ratting Gergely egyéni vállalkozó OTP banknál vezetett 11773487-00981044 számú bankszámlaszámára tud. Az utalás kedvezményezettje Ratting Gergely egyéni vállalkozó. Az utalás közlemény rovatában az e-mailes egyeztetés során küldött díjbekérő sorszámát kell megadni! A fiók féléves meghosszabbítása az összeg beérkezését követően kerülbeállításra.</p>
+                <p>A féléves használat díját utalással is ki tudja egyenlíteni, amennyiben ezt előre jelzi a {{ config('mail.from.address') }} címen. Utalni a Ratting Gergely egyéni vállalkozó OTP banknál vezetett 11773487-00981044 számú bankszámlaszámára tud. Az utalás kedvezményezettje Ratting Gergely egyéni vállalkozó. Az utalás közlemény rovatában az e-mailes egyeztetés során küldött díjbekérő sorszámát kell megadni! Az előfizetés meghosszabbítása az összeg beérkezését követően kerül beállításra.</p>
 
                 <p>Kérjük, hogy átutalásos fizetés esetén az utalást csak azután indítsa el, hogy megkapta a díjbekérőt!</p>
 
                 <h3>Elállás joga</h3>
-                <p>A szolgáltatást utólag fizeti ki, amennyiben azzal meg van elégedve. Amennyiben nem elégedett a szolgáltatással, a Profil menüpontban bármikor törölheti fiókját, vagy tétlenség esetén a regisztrációtól vagy utolsó fizetéstől számított fél év és 67 nap után a rendszer automatikusan törli azt.</p>
+                <p>Amennyiben nem elégedett a szolgáltatással, a Profil menüpontban bármikor törölheti fiókját, vagy tétlenség esetén az előfizetés lejárta után 120 nappal a rendszer automatikusan törli azt.</p>
 
                 <h4>Az elállás joghatásai</h4>
 
@@ -114,13 +108,13 @@
                 <h4>Használat során megadott adatok:</h4>
 
                 <ul>
-                    <li>Kategóriák neve (titkosítva tároljuk)</li>
-                    <li>Perselyek neve (titkosítva tároljuk)</li>
-                    <li>Perselyekben tárolt összeg (titkosítva tároljuk)</li>
+                    <li>Kategóriák neve</li>
+                    <li>Perselyek neve</li>
+                    <li>Perselyekben tárolt összeg</li>
                     <li>Persellyel kapcsolatos információk: határidő, fontos-e, kiválasztott ikon</li>
                 </ul>
 
-                <p>A rendszer továbbá tárolja az egyes pénzügyi műveleteket, éldául pénz beosztása, kiadás, bevétel, melyet 67 napig visszamenőleg események és ebből képzett statisztika formájában lekérhet a felhasználó. 67 nap elteltével az adatok törlésre kerülnek.</p>
+                <p>A rendszer továbbá tárolja az egyes pénzügyi műveleteket, például pénz beosztása, kiadás, bevétel, melyet 2 évig visszamenőleg események és ebből képzett statisztika formájában lekérhet a felhasználó. 2 év elteltével az adatok törlésre kerülnek.</p>
 
                 <h4>Adattovábbítás</h4>
 

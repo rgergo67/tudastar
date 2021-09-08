@@ -51,10 +51,6 @@
     <figcaption>Két grafikon, és egy letölthető excel fájl.</figcaption>
 </figure>
 
-<p>Egyrészt azért nem csinálunk komolyabb statisztikát, mert az egyszerűségre és hatékonyságra törekszünk. Minden kiadásodhoz még pluszban rögzíteni egy megnevezést, mikor nagyjából úgyis tudod hogy mi volt az alapján, hogy melyik perselyből költötted, felesleges műveletnek tűnik. Aztán 1 év múlva visszanézed, hogy hmmm... Sokat költök társasokra, de kevesebbet kellene. Aztán jön egy új szuper társas, és úgyis megveszed. Az egész programnak pont az a lényege, hogy ne utólag gondolkodj el a dolgokon, hanem a pénz elköltése előtt.</p>
-
-<p>A másik oka annak, hogy nincs komolyabb statisztika: az adatvédelem és biztonság. Csak a legszükségesebb adatokat akarjuk tárolni, és azokat is titkosítva. Ennek következtében nem igazán tudunk hatékony lekérdezéseket és statisztikákat készíteni, legalábbis nem a jelenlegi áraink mellett. Márpedig a cél az, hogy hasznos és jó szolgáltatást nyújtsunk, lehetőleg olcsón, ehhez pedig néhány dolgról le kell mondanunk (egyelőre).</p>
-
 <h3>Összes pénzed</h3>
 
 <p>A perselyekben lévő pénzt összesítve a Statisztika oldal bal oldalán láthathod. Évente egyszer érdemes újraszámolni az összes pénzed (mint a legelső lépésben) és korrigálni. Biztosan kimarad 1-1 kiadás, vagy nem foglalkozol minden hónapban a kamatokkal vagy banki költségekkel, ezt ilyenkor javíthatod. Remélhetőleg csak néhány ezer forintról lesz szó, melyet valamelyik perselyre ráterhelhetsz, és már újra sínen is vagy.</p>

@@ -21,8 +21,6 @@
 
 <p>Összeszedtünk néhány problémát amire megoldást jelenthet az alkalmazás, <x-a href="{{ route('knowledge.show', 'mi-a-celod') }}">erről itt tudsz olvasni bővebben</x-a>.</p>
 
-<p>Az oldal működési költségvetése egyébként teljesen nyilvános. Nincs rejtegetni valónk, minden hivatalosan megy: pontosan látható a bevétel, kiadás, hogy nekünk mennyi hasznunk van, és hogy mennyit és mire adakozunk. <x-a href="{{ route('open_business.index') }}">Itt tekintheted meg a pénzügyeinket.</x-a></p>
-
 <p>Ha nem tudod merre tovább, olvass bele néhány cikkbe a <x-a href="{{ route('knowledge.index') }}">tudástárunkban</x-a>, vagy <x-a href="{{ route('register') }}">regisztrálj</x-a> és hajtsd végre a <x-a href="{{ route('knowledge.show', 'elso-lepesek') }}">kezdéshez szükséges néhány lépést</x-a>, onnantól minden megy majd magától.</p>
 
 <div class="flex justify-center">

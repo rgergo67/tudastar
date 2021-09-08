@@ -14,9 +14,9 @@
                         :link="route('articles.show', 'vesztartalek-diohejban')"
                         description="A vésztartalék létrehozása az egyik legjobb pénzügyi döntésed lehet, ezek a lépései." />
                 <x-blog-card
-                        title="Pénzügyi haditerv"
-                        :link="route('articles.show', 'penzugyi-haditerv')"
-                        description="Egy hasonlat, ami segíthet a beosztom.hu könnyebb megértésében" />
+                        title="3 legjobb költségvetés tervező alkalmazás"
+                        :link="route('articles.show', '3-legjobb-koltsegvetes-tervezo-alkalmazas')"
+                        description="A legjobb külföldi és magyar költségvetés készítő alkalmazások" />
             </div>
         </div>
     </div>
