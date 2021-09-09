@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Blade::if('admin', function () {
-            return auth()->user()->email === 'rgergo67@gmail.com';
+            return auth()->check() && auth()->user()->email === 'rgergo67@gmail.com';
         });
     }
 }

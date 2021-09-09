@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\KnowledgeController;
 use App\Http\Controllers\TinyMceUploadController;
 use Illuminate\Support\Facades\Route;
@@ -34,5 +35,8 @@ Route::group(['middleware' => ['web', 'admin']], function () {
     Route::get('articles/{article}', [ArticleController::class, 'adminShow'])->name('articles.show');
     Route::post('tinymce_upload', [TinyMceUploadController::class, 'upload'])->name('tinymce_upload');
 });
+
+Route::get('login', [AuthenticatedSessionController::class, 'create'])->name('auth.create');
+Route::post('login', [AuthenticatedSessionController::class, 'store'])->name('auth.store');
 
 require __DIR__.'/auth.php';
