@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <meta property="og:site_name" content="Beosztom.hu">
         <meta property="og:url" content="{{ request()->fullUrl() }}">
@@ -49,7 +50,20 @@
         @stack('footer-scripts')
         <x-google-analytics />
         <script src="{{ asset('node_modules/tinymce/tinymce.js') }}"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script type="text/javascript">
+            let token = document.head.querySelector('meta[name="csrf-token"]');
+
+            if (token) {
+                $.ajaxSetup({
+                    headers: {
+                        'X-CSRF-TOKEN': token.content
+                    }
+                });
+            } else {
+                console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+            }
+
             function uploadTinyMceImageContent(blobInfo, success, failure, progress) {
                 var data = new FormData();
                 data.append('image', blobInfo.blob(), blobInfo.filename());
@@ -116,6 +130,7 @@
                 toolbar_mode: 'sliding',
                 contextmenu: false,
                 content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }',
+                entity_encoding : "raw"
             });
         </script>
     </body>

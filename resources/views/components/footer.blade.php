@@ -27,7 +27,7 @@
                     <li><a href="/#kinek" class="text-white hover:text-primary py-3 block">Kinek?</a></li>
                     <li><a href="/#ar" class="text-white hover:text-primary py-3 block">Ár</a></li>
                     <li><a href="{{ route('knowledge.index') }}" class="text-white hover:text-primary py-3 block">Tudástár</a></li>
-                    <li><a href="{{ route('articles.index') }}" class="text-white hover:text-primary py-3 block">Cikkek</a></li>
+                    <li><a href="{{ route('cikkek.index') }}" class="text-white hover:text-primary py-3 block">Cikkek</a></li>
                     <li><a href="{{ route('register') }}" class="text-white hover:text-primary py-3 block" rel="nofollow">Regisztráció</a></li>
                     <li><a href="{{ route('login') }}" class="text-white hover:text-primary py-3 block" rel="nofollow">Belépés</a></li>
                 </ul>

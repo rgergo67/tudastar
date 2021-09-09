@@ -5,7 +5,7 @@
                 <h3 class="text-xl text-gray-800 tracking-wide font-bold leading-tight  mb-3">
                     {{ $title }}
                 </h3>
-                <p class="text-lg text-gray-800">{{ $description }}</p>
+                <p class="text-lg text-gray-800">{!! strip_tags(html_entity_decode($description)) !!}</p>
             </div>
         </a>
     </div>

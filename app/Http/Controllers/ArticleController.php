@@ -2,15 +2,108 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Article;
 use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 class ArticleController extends Controller
 {
-    public function __invoke(string $document): View
+    public function adminShow(string $slug): View
     {
-        return view()->exists('articles.' . $document)
-            ? view('articles.' . $document)
-            : view('articles.index');
+        return view('articles.admin_show', [
+            'article' => Article::firstWhere('slug', $slug)
+        ]);
+    }
+
+    public function show(string $slug): View
+    {
+        return view('articles.show', [
+            'article' => Article::firstWhere('slug', $slug)
+        ]);
+    }
+
+    public function adminIndex(): View
+    {
+        return view('articles.admin_index', [
+            'articles' => Article::all(),
+        ]);
+    }
+
+    public function index(): View
+    {
+        return view('articles.index', [
+            'articles' => Article::all(),
+        ]);
+    }
+
+    public function create(): View
+    {
+        return view('articles.create');
+    }
+
+    public function store(Request $request): RedirectResponse
+    {
+        if (! empty($request->file('header_image'))) {
+            $fileName = $request->file('header_image')->store(
+                'images/cikkek',
+                'public'
+            );
+        }
+
+        $article = Article::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'body' => $request->body,
+            'slug' => $request->slug ?? Str::slug($request->title),
+            'header_image' => $fileName ?? null,
+        ]);
+
+        Artisan::call("page-cache:clear /cikkek");
+
+        return redirect()->route("articles.show", $article->slug);
+    }
+
+    public function edit(Article $article): View
+    {
+        return view('articles.edit', [
+            'article' => $article,
+        ]);
+    }
+
+    public function update(Request $request, Article $article): RedirectResponse
+    {
+        $article->update($request->except('header_image'));
+
+        if (! empty($request->file('header_image'))) {
+            $fileName = $request->file('header_image')->store(
+                'images/cikkek',
+                'public'
+            );
+
+            $article->header_image = $fileName;
+            $article->save();
+        }
+
+        Artisan::call("page-cache:clear /cikkek");
+        Artisan::call("page-cache:clear /cikkek/$article->slug");
+
+        return redirect()->route("articles.show", $article->slug);
+    }
+
+    public function destroy(Article $article): RedirectResponse
+    {
+        preg_match_all('/storage\/(wysiwyg-uploads\/[^"]*)/', $article->body, $matches);
+        Storage::disk('public')->delete($matches[1]);
+
+        $article->delete();
+
+        Artisan::call("page-cache:clear /cikkek");
+
+        return redirect()->route("articles.index");
     }
 }

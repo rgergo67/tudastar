@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "flatpickr": "^4.6.9",
-        "sortablejs": "^1.13.0"
+        "sortablejs": "^1.13.0",
+        "tinymce": "^5.9.2"
     }
 }

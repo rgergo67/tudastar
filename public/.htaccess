@@ -15,14 +15,14 @@
     RewriteRule ^ %1 [L,R=301]
 
     # Serve Cached Page If Available...
-    RewriteCond %{HTTP_HOST} !^tudastar.local.hu$
+    RewriteCond %{HTTP_HOST} !^tudastar1.beosztom.local.hu$
     RewriteCond %{REQUEST_URI} ^/?$
     RewriteCond %{DOCUMENT_ROOT}/page-cache/pc__index__pc.html -f
     RewriteRule .? page-cache/pc__index__pc.html [L]
-    RewriteCond %{HTTP_HOST} !^tudastar.local.hu$
+    RewriteCond %{HTTP_HOST} !^tudastar1.beosztom.local.hu$
     RewriteCond %{DOCUMENT_ROOT}/page-cache%{REQUEST_URI}.html -f
     RewriteRule . page-cache%{REQUEST_URI}.html [L]
-    RewriteCond %{HTTP_HOST} !^tudastar.local.hu$
+    RewriteCond %{HTTP_HOST} !^tudastar1.beosztom.local.hu$
     RewriteCond %{DOCUMENT_ROOT}/page-cache%{REQUEST_URI}.json -f
     RewriteRule . page-cache%{REQUEST_URI}.json [L]
 
