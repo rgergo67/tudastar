@@ -15,16 +15,26 @@ class ArticleController extends Controller
 {
     public function adminShow(string $slug): View
     {
-        return view('articles.admin_show', [
+        $article = Article::firstWhere('slug', $slug);
+        return is_null($article)
+            ? view('articles.admin_index', [
+                'articles' => Article::all(),
+            ])
+            : view('articles.admin_show', [
             'article' => Article::firstWhere('slug', $slug)
         ]);
     }
 
     public function show(string $slug): View
     {
-        return view('articles.show', [
-            'article' => Article::firstWhere('slug', $slug)
-        ]);
+        $article = Article::firstWhere('slug', $slug);
+        return is_null($article)
+            ? view('articles.index', [
+                'articles' => Article::all(),
+            ])
+            : view('articles.show', [
+                'article' => $article
+            ]);
     }
 
     public function adminIndex(): View
@@ -64,6 +74,7 @@ class ArticleController extends Controller
         ]);
 
         Artisan::call("page-cache:clear /cikkek");
+        Artisan::call("sitemap:generate");
 
         return redirect()->route("articles.show", $article->slug);
     }
@@ -103,6 +114,7 @@ class ArticleController extends Controller
         $article->delete();
 
         Artisan::call("page-cache:clear /cikkek");
+        Artisan::call("sitemap:generate");
 
         return redirect()->route("articles.index");
     }
