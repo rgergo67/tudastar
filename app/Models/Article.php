@@ -38,6 +38,12 @@ class Article extends Model
     |--------------------------------------------------------------------------
     */
 
+    public function getOptimizedBodyAttribute(): string
+    {
+        $body = preg_replace('/<img /', '<img loading="lazy" ', $this->body);
+        return preg_replace('/\[cta\]/', view('components.inline-cta')->render(), $body);
+    }
+
     /*
     |--------------------------------------------------------------------------
     | MUTATORS

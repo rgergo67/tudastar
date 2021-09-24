@@ -5,7 +5,7 @@
             {!! $article->description !!}
         </x-slot>
 
-        {!! $article->body !!}
+        {!! $article->optimizedBody !!}
 
     </x-article>
 </x-blog-layout>

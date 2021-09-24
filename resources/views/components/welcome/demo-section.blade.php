@@ -5,9 +5,10 @@
                 Próbáld ki ingyen, 3 kattintással!
             </h2>
             <div class="w-full sm:max-w-2xl text-center mt-4 max-w-2xl text-xl lg:mx-auto">
+                <p class="mb-4">Ne élj többet hónapról hónapra! Legyen egy vésztartalékod, fizesd vissza a hiteleid, és mondj búcsút a stresszes mindennapoknak. Vedd kézbe a pénzed feletti irányítást, ezzel a költségvetés tervező alkalmazással.</p>
                 <p>Egy teljesen üres teszt fiókban tudod kipróbálni a beosztom.hu működését, e-mail cím és jelszó megadása nélkül.</p>
 
-                <img src="/images/koltsegvetes_keszites_egyszeruen.svg" alt="Költségvetés késztítés egyszerűen" class="max-w-xl mx-auto mt-8" />
+                <img loading="lazy" src="/images/koltsegvetes_keszites_egyszeruen.svg" alt="Költségvetés késztítés egyszerűen" class="max-w-xl mx-auto mt-8" />
 
                 <div class="flex items-center justify-end mt-10 rounded-md shadow">
                     <a href="{{ route('demo.create') }}" rel="nofollow" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-green-600 hover:bg-green-500 hover:shadow-lg md:py-4 md:text-lg md:px-10 border-b-4 border-green-800">
