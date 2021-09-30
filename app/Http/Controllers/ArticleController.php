@@ -54,7 +54,9 @@ class ArticleController extends Controller
 
     public function create(): View
     {
-        return view('articles.create');
+        return view('articles.create', [
+            'types' => Article::groupBy('type')->pluck('type', 'type'),
+        ]);
     }
 
     public function store(Request $request): RedirectResponse
