@@ -44,6 +44,11 @@ class Article extends Model
         return preg_replace('/\[cta\]/', view('components.inline-cta')->render(), $body);
     }
 
+    public function getReadingTimeAttribute(): string
+    {
+        return floor(str_word_count(strip_tags(html_entity_decode($this->body))) / 200) . " perc" ;
+    }
+
     /*
     |--------------------------------------------------------------------------
     | MUTATORS

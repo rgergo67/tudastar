@@ -7,11 +7,11 @@
         <meta property="og:site_name" content="Beosztom.hu">
         <meta property="og:url" content="{{ request()->fullUrl() }}">
         <meta property="og:type" content="article">
-        <meta property="og:image" content="/images/fb_cover.jpg">
 
         @sectionMissing('seo')
             <x-seo title="Oszd be a pénzed egyszerűen"
-                   description="Csökkentsd az impulzus vásárlásaid, költekezz tudatosan, spórolj hatékonyan! Használd fél évig, és döntsd el utána, hogy megéri-e az árát." />
+                   description="Csökkentsd az impulzus vásárlásaid, költekezz tudatosan, spórolj hatékonyan! Használd fél évig, és döntsd el utána, hogy megéri-e az árát."
+                   image="/images/fb_cover.jpg" />
         @endif
 
         @yield('seo')

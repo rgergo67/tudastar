@@ -33,7 +33,8 @@ class ArticleController extends Controller
                 'articles' => Article::all(),
             ])
             : view('articles.show', [
-                'article' => $article
+                'article' => $article,
+                'recommendedArticles' => Article::inRandomOrder()->where('type', $article->type)->limit(3)->get()
             ]);
     }
 
@@ -47,7 +48,7 @@ class ArticleController extends Controller
     public function index(): View
     {
         return view('articles.index', [
-            'articles' => Article::all(),
+            'articles' => Article::simplePaginate(9),
         ]);
     }
 
@@ -67,6 +68,7 @@ class ArticleController extends Controller
 
         $article = Article::create([
             'title' => $request->title,
+            'type' => $request->type,
             'description' => $request->description,
             'body' => $request->body,
             'slug' => $request->slug ?? Str::slug($request->title),
@@ -83,6 +85,7 @@ class ArticleController extends Controller
     {
         return view('articles.edit', [
             'article' => $article,
+            'types' => Article::groupBy('type')->pluck('type', 'type'),
         ]);
     }
 

@@ -19,6 +19,9 @@
                         <a href="{{ route('knowledge.index') }}" class="font-medium text-gray-500 hover:text-gray-900">
                             Tudástár
                         </a>
+                        <a href="{{ route('cikkek.index') }}" class="font-medium text-gray-500 hover:text-gray-900">
+                            Cikkek
+                        </a>
                         <a href="{{ route('register') }}" class="font-medium text-gray-500 hover:text-gray-900" rel="nofollow">Regisztráció</a>
                         <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500" rel="nofollow">Belépés</a>
                     </div>

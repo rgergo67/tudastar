@@ -5,4 +5,5 @@
 
     <meta property="og:title" content="{{ $title }} | Beosztom.hu">
     <meta property="og:description" content="{{ $description ?? "Csökkentsd az impulzus vásárlásaid, költekezz tudatosan, spórolj hatékonyan!" }}">
+    <meta property="og:image" content="{{ $image ?? '/images/fb_cover.jpg' }}">
 @endsection

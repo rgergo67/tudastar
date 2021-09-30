@@ -5,14 +5,20 @@
         <div class="max-w-7xl mx-auto">
             <h1 class="text-gray-900 text-3xl font-extrabold tracking-tight mt-2 text-center">Cikkek</h1>
 
-            <div class="flex flex-wrap pt-6 sm:pt-0">
+            <div class="flex flex-wrap pt-6 sm:pt-0 mb-4">
                 @foreach($articles as $article)
                     <x-blog-card
                         title="{{ $article->title }}"
                         :link="route('cikkek.show', $article->slug)"
-                        description="{{ $article->description }}" />
+                        description="{{ $article->description }}"
+                        :headerImage="$article->header_image"
+                        :createdAt="$article->created_at"
+                        :type="$article->type"
+                        :readingTime="$article->readingTime"/>
                 @endforeach
             </div>
+
+            {{ $articles->links() }}
         </div>
     </div>
 
