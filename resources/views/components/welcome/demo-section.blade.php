@@ -1,6 +1,6 @@
 <section class="bg-yellow-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div class="lg:text-center">
+        <div class="text-center">
             <h2 id="proba" class="mt-2 mb-10 text-3xl leading-8 font-extrabold sm:text-4xl">
                 Próbáld ki ingyen, 3 kattintással!
             </h2>
@@ -17,7 +17,7 @@
                     </a>
                 </div>
                 <div class="flex items-center justify-end mt-6 rounded-md shadow">
-                    <a href="https://www.youtube.com/watch?v=57D4CPJXwXw" rel="nofollow" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md bg-yellow-400 hover:bg-yellow-400 hover:shadow-lg md:py-4 md:text-lg md:px-10 border-b-4 border-yellow-700">
+                    <a href="https://www.youtube.com/watch?v=57D4CPJXwXw" rel="noopener" target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md bg-yellow-400 hover:bg-yellow-400 hover:shadow-lg md:py-4 md:text-lg md:px-10 border-b-4 border-yellow-700">
                         Videó a működésről
                     </a>
                 </div>

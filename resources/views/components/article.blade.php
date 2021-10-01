@@ -15,7 +15,7 @@
         {{ $title }}
     </h1>
 
-    <div class="prose prose-indigo prose-lg max-w-prose mx-auto">
+    <div class="px-4 prose prose-indigo prose-lg max-w-prose mx-auto">
         <div class="font-bold">{!! $description !!}</div>
 
         {!! $slot !!}

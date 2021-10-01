@@ -18,7 +18,9 @@
                 @endforeach
             </div>
 
-            {{ $articles->links() }}
+            <div class="max-w-lg mx-auto pb-8">
+                {{ $articles->links() }}
+            </div>
         </div>
     </div>
 
