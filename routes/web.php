@@ -15,7 +15,6 @@ Route::group(['middleware' => ['page-cache']], function () {
     Route::get('tudastar/{document}', KnowledgeController::class)->name('knowledge.show');
     Route::view('tudastar', 'knowledge')->name('knowledge.index');
 
-    Route::get('cikkek', [ArticleController::class, 'index'])->name('cikkek.index');
     Route::get('cikkek/{slug}', [ArticleController::class, 'show'])->name('cikkek.show');
 
     Route::view('credit', 'credit')->name('credit');
@@ -23,6 +22,8 @@ Route::group(['middleware' => ['page-cache']], function () {
     Route::view('kapcsolat', 'contact')->name('contact');
     Route::view('offline', 'offline')->name('offline');
 });
+
+Route::get('cikkek', [ArticleController::class, 'index'])->name('cikkek.index');
 
 Route::domain(config('app.app_domain'))->group(function () {
     Route::get('demo')->name('demo.create');
