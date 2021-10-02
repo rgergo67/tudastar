@@ -34,7 +34,7 @@ class ArticleController extends Controller
             ])
             : view('articles.show', [
                 'article' => $article,
-                'recommendedArticles' => Article::inRandomOrder()->where('type', $article->type)->limit(3)->get()
+                'recommendedArticles' => Article::inRandomOrder()->where('type', $article->type)->where('id', '<>', $article->id)->limit(3)->get()
             ]);
     }
 
