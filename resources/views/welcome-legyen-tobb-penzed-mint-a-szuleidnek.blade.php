@@ -142,6 +142,8 @@
         </div>
     </section>
 
+    <x-welcome.features />
+
     <x-welcome.price-section />
 
     <section class="py-12 bg-gray-100">

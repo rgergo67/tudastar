@@ -29,31 +29,17 @@
 
 <h3>Események</h3>
 
-<p>Ezt a jobb felső menüből érheted el. Itt tudod megnézni, hogy az elmúlt 67 napban hogyan mozgott a pénzed, milyen tranzakcióid voltak.</p>
+<p>Ezt a jobb felső menüből érheted el. Itt tudod megnézni, hogy milyen pénzmozgásaid votlak (bevétel, kiadás, beosztás).</p>
 
-<figure>
-    <picture>
-        <img src="/images/esemenyek.png" />
-    </picture>
-    <figcaption>Bevétel, beosztás, kiadás. Ha elefelejtetted, hogy valamit rögzítettél-e, itt meg tudod nézni.</figcaption>
-</figure>
+<h3>Tranzakciók</h3>
+
+<p>Hasonló az eseményekhez, azonban itt csak a kiadások és bevételek szerepelnek. Ha egy tranzakciót törölsz, akkor annak hatása is visszavonódik. Például ha rögzítettél 1.000 Ft-os bevételt, akkor az itt megjelenik. Később, ha törlöd, akkor nem csak eltűnik a sor, de a beosztható pénzedből is levonásra kerül az az 1.000 Ft. Ugyanígy, ha van egy 1.000 Ft-os kiadásod egy perselyből, de valamiért törlöd a tranzakciót, akkor az 1.000 Ft visszakerül a perselyedbe, mintha el sem költötted volna.</p>
+
+<p>Ehhez képest az eseményeknél továbbra is látszani fog, hogy valamikor elköltötted azt az 1.000 Ft-ot.</p>
 
 <h3>Statisztika</h3>
 
-<p>Ez elsősorban nem egy kiadáskövető program, ezért nem is találsz lehetőséget a bevételek és kiadások cimkézésére. Azonban mivel úgyis vezetünk egy naplót az elmúlt 67 nap eseményeiről, össze tudunk állítani neked két statisztikát.</p>
-
-<p>Az egyik azt veszi alapul, hogy melyik kategóriából mennyit költöttél, a másik ugyanezt persely szinten nézi. Az adatokat excelbe is ki tudod exportálni, ami az eseményeket is tartalmazni fogja egy külön fülön.</p>
-
-<figure>
-    <picture>
-        <img src="/images/statisztika.png" />
-    </picture>
-    <figcaption>Két grafikon, és egy letölthető excel fájl.</figcaption>
-</figure>
-
-<h3>Összes pénzed</h3>
-
-<p>A perselyekben lévő pénzt összesítve a Statisztika oldal bal oldalán láthathod. Évente egyszer érdemes újraszámolni az összes pénzed (mint a legelső lépésben) és korrigálni. Biztosan kimarad 1-1 kiadás, vagy nem foglalkozol minden hónapban a kamatokkal vagy banki költségekkel, ezt ilyenkor javíthatod. Remélhetőleg csak néhány ezer forintról lesz szó, melyet valamelyik perselyre ráterhelhetsz, és már újra sínen is vagy.</p>
+<p>Ahhoz, hogy rendbetedd és később rendben is tartsd a pénzügyeidet, tisztában kell lenned a pénzügyi szokásaiddal. Ha felmerült már benned a kérdés, hogy "Vajon mire költöm a pénzem?", akkor a statisztikát érdemes lesz böngészned.</p>
 
 <div class="flex justify-center">
     <x-a href="{{ route('knowledge.index') }}" class="font-bold">Tudástár</x-a>

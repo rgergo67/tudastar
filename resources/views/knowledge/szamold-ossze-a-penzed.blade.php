@@ -13,9 +13,9 @@
 
 <x-figure name="beosztas" title="Először kattints a szövegre vagy ceruzára, majd a megjelenő mezőbe írd be az összeget és egy megjegyzést (nem kötelező), végül üss ENTER-t vagy kattints az egyenlőség jelre." width="419" height="201" />
 
-<p>Ha esetleg elrtontottad és javítani kell, negatív összeget is beírhatsz. Írhatsz megjegyzést is, de ez nem kötelező.</p>
+<p>Ha esetleg elrtontottad és javítani kell, negatív összeget is beírhatsz. Vesszővel elválasztott cimkéket is megadhatsz, pl fizetés vagy családi pótlék, de ez nem kötelező.</p>
 
-<p>A fenti képen látható varázspálca a pénz automatikus beosztásában segít. Ezt akkor tudod használni, ha már beállítottál néhány célt, erről egy kicsit később írunk. Előbb nézzük meg mire valók a kategóriák és a perselyek.</p>
+<p>A beosztható összeg mellett látható varázspálca a pénz automatikus beosztásában segít. Ezt akkor tudod használni, ha már beállítottál néhány célt, erről egy kicsit később írunk. Előbb nézzük meg mire valók a kategóriák és a perselyek.</p>
 
 <div class="flex justify-center">
     <x-a href="{{ route('knowledge.show', 'kategoriak-es-perselyek') }}" class="font-bold">2. Kategóriák és perselyek >></x-a>

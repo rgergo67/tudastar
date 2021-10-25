@@ -132,7 +132,6 @@
                         <p><b>Nem ajánljuk,</b></p>
                         <ul>
                             <li>- ha automatikus banki szinkronizációra van szükséged</li>
-                            <li>- ha évekre visszamenő statisztikákat szeretnél nézni</li>
                         </ul>
                     </div>
                 </div>
@@ -142,6 +141,8 @@
             </div>
         </div>
     </section>
+
+    <x-welcome.features />
 
     <x-welcome.price-section />
 

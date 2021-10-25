@@ -23,7 +23,7 @@
 
 <x-figure name="persely_letrehozas" title="Így tudsz perselyt létrehozni." width="515" height="779" />
 
-<p>A <b>név</b> magáért beszél, később erre tudsz rákeresni a jobb alul lévő keresővel, és a statisztikában is ez jelenik majd meg.</p>
+<p>A <b>név</b> magáért beszél, később erre tudsz rákeresni az oldal jobb alsó sarkában lévő keresővel, és a statisztikában is ez jelenik majd meg.</p>
 
 <p><b>Cél</b>t nem muszáj beállítani, ám ha megteszed, akkor a persely sorában az összeg alatt megjelenik majd egy sáv, ami mutatja, hogy a célhoz képest mennyi pénz van a perselyben. Ez hosszú távú spórolásoknál lehet hasznos (karácsonyi ajándékokra teszel félre, vagy autóra gyűjtesz), vagy ha meg tudod mondani, hogy egy perselyben idális esetben mennyi pénznek kellene lennie.</p>
 
