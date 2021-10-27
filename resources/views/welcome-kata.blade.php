@@ -92,8 +92,8 @@
                         <h3 class="font-bold">Tegyél félre fejlesztésre!</h3>
                         <p class="mt-0 mb-4">Külön perselyed lehet befektetésre, amibe minden bevételből csepegtetsz egy kicsit, így lesz miből fejleszteni a vállalkozásod.</p>
 
-                        <h3 class="font-bold">Titkosított adattárolás</h3>
-                        <p class="mt-0 mb-4">A perselyek és kategóriák nevét, az összegeket és minden megjegyzést titkosítva tárolunk.</p>
+                        <h3 class="font-bold">Statisztika</h3>
+                        <p class="mt-0 mb-4">Tudd meg mi termeli a legtöbb hasznot, és mi viszi a pénzt, majd ennek fényében optimalizálj!</p>
 
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
@@ -136,7 +136,6 @@
                         <p><b>Nem ajánljuk,</b></p>
                         <ul>
                             <li>- ha automatikus banki szinkronizációra van szükséged</li>
-                            <li>- ha évekre visszamenő statisztikákat szeretnél nézni</li>
                         </ul>
                     </div>
                 </div>

@@ -131,7 +131,6 @@
                         <p><b>Nem ajánljuk,</b></p>
                         <ul>
                             <li>- ha automatikus banki szinkronizációra van szükségetek</li>
-                            <li>- ha évekre visszamenő statisztikákat szeretnétek nézni</li>
                         </ul>
                     </div>
                 </div>

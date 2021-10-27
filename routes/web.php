@@ -21,6 +21,9 @@ Route::group(['middleware' => ['page-cache']], function () {
     Route::view('aszf', 'terms')->name('aszf');
     Route::view('kapcsolat', 'contact')->name('contact');
     Route::view('offline', 'offline')->name('offline');
+    Route::get('eloadas', function () {
+        return redirect('/cikkek/megoldas-a-penzugyi-problemadra');
+    });
 });
 
 Route::get('cikkek', [ArticleController::class, 'index'])->name('cikkek.index');

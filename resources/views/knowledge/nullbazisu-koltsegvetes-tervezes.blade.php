@@ -19,7 +19,7 @@
 
 <p>Attól, hogy tudatos döntéseket hozol és nem sodródsz az árral, nem csak nyugodtabb és magabisztosabb leszel, hanem legalább egyszer elgondolkodsz a prioritásaidon. Amikor a nélkülözhetetlen dolgokra már beosztottad a pénzt, és marad még 100.000 Ft, vagy hónap közben nyersz 500.000 Ft-ot kaparós sorsjegyen, akkor eldöntheted, hogy ebből a gyerek egyetemére teszel félre, a saját nyugdíjadra, egy részéből a házat újítod fel, vagy beteszed a jövő évi nyaralás perselyébe.</p>
 
-<p>Ha rendszeresen "csak" 10.000 Ft szabad pénzed marad, mégis teszel belőle 2.000-et vésztartalékhoz, 5.000-et hitel törlesztésre, 2.000-et a gyereknek egyetemre, és 1.000 Ft-ot egy teleszkópra, mert már évek óta meg akarod venni, akkor ahogy telnek a hónapok, látni fogod ahogyan ezekből az apró beosztásokból egyre csak gyűlik a pénz, és ez elégedettséggel majd tölt el.</p>
+<p>Ha rendszeresen "csak" 10.000 Ft szabad pénzed marad, mégis teszel belőle 2.000-et vésztartalékhoz, 5.000-et hitel törlesztésre, 2.000-et a gyereknek egyetemre, és 1.000 Ft-ot egy teleszkópra, mert már évek óta meg akarod venni, akkor ahogy telnek a hónapok, látni fogod ahogyan ezekből az apró beosztásokból egyre csak gyűlik a pénz, és ez elégedettséggel tölt majd el.</p>
 
 <p>Használd fél évig a beosztom.hu-t, és csak akkor fizess, ha tényleg hasznos volt számodra!</p>
 
