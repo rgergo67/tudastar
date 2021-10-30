@@ -48,7 +48,7 @@ class ArticleController extends Controller
     public function index(): View
     {
         return view('articles.index', [
-            'articles' => Article::simplePaginate(9),
+            'articles' => Article::orderBy('id', 'desc')->simplePaginate(9),
         ]);
     }
 
