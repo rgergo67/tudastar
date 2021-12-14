@@ -37,6 +37,10 @@
                 <h4 class="text-xl text-gray-200 font-modlr tracking-wide font-bold leading-tight mb-3">Fizetés</h4>
                 <img class="block mx-auto w-max w-100" alt="Barion fizetés" src="/images/barion.png" loading="lazy" width="400" height="42">
                 <a class="text-white hover:text-primary py-3 block" href="{{ route('knowledge.show', 'barion') }}">Mi az a Barion?</a>
+                <h4 class="text-xl text-gray-200 font-modlr tracking-wide font-bold leading-tight my-3">Érdekesség</h4>
+                <ul>
+                    <li><a href="{{ route('inflation.the_worth_of_money') }}" class="text-white hover:text-primary py-3 block">Mennyit ér a pénz</a></li>
+                </ul>
             </div>
         </div>
     </div>

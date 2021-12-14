@@ -25,6 +25,8 @@ Route::group(['middleware' => ['page-cache']], function () {
     Route::get('eloadas', function () {
         return redirect('/cikkek/megoldas-a-penzugyi-problemadra');
     });
+
+    Route::get('mennyit-er-a-penzunk', [\App\Http\Controllers\InflationController::class, 'theWorthOfMoney'])->name('inflation.the_worth_of_money');
 });
 
 Route::get('cikkek', [ArticleController::class, 'index'])->name('cikkek.index');
