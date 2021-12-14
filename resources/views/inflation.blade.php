@@ -10,7 +10,7 @@
 
                 <p>Legalábbis ezt halljuk a leggyakrabban, azon viszont ritkán gondolkodunk el, hogy lehet, hogy a hiba bennünk, és a kényelmes életünkben van.</p>
 
-                <p>A lenti grafikon segítségével azt tudod megnézni, hogy az évek alatt növekvő átlegkeresethez és minimálbérhez képest mennyivel lettek drágábbak azok a termékek, amiket a KSH az infláció kiszámításához használ.</p>
+                <p>A lenti grafikon segítségével azt tudod megnézni, hogy az évek alatt növekvő minimálbérhez, átlagkeresethez, és a teljes pénzmennyiséghez (M3) képest mennyivel lettek drágábbak azok a termékek, amiket a KSH az infláció kiszámításához használ.</p>
 
                 <form id="form" action="{{ route('inflation.the_worth_of_money') }}" method="get">
                     <select name="index1" id="index1" onchange="document.getElementById('form').submit();">
@@ -24,6 +24,8 @@
                         @endforeach
                     </select>
                 </form>
+
+                <p>{{ $firstMeaningfulRow[0] }} és {{ $lastMeaningfulRow[0] }} között a {{ $header[0] }} {{ $firstMeaningfulRow[1] }} Ft-ról {{ $lastMeaningfulRow[1] }} Ft-ra nőtt, azaz {{ round($lastMeaningfulRow[1] / $firstMeaningfulRow[1], 2) }}x több lett. Kezdetben egy "{{ $header[1] }}" {{ $firstMeaningfulRow[2] }} Ft-ba került, végül {{ $lastMeaningfulRow[2] }} Ft-ba, ami {{ round($lastMeaningfulRow[2] / $firstMeaningfulRow[2], 2) }}x árváltozás. Régen {{ round($firstMeaningfulRow[3]) }} db jött ki a pénzből, ma {{ round($lastMeaningfulRow[3]) }}, ez {{ round($lastMeaningfulRow[3] / $firstMeaningfulRow[3], 2) }}x @if($lastMeaningfulRow[3] < $firstMeaningfulRow[3]) <span class="text-red-600 font-bold">kevesebb</span> @else <span class="text-green-600 font-bold">több</span> @endif .</p>
 
                 <div id="linechart-inflacio" class="w-full mt-6" style="height: 500px"></div>
 

@@ -12,7 +12,7 @@ class InflationController extends Controller
     {
         $index1 = request('index1', 3);
         $index2 = request('index2', 4);
-        $inflation = Excel::toCollection(new InflationImport(), 'inflation.xlsx', 'local', \Maatwebsite\Excel\Excel::XLSX)[0];
+        $inflation = Excel::toCollection(new InflationImport(), 'files/inflation.xlsx', 'resources', \Maatwebsite\Excel\Excel::XLSX)[0];
         $header = $inflation->shift();
         $goods = $header->slice(4);
         $moneyTypes = $header->slice(1,3);
@@ -22,18 +22,30 @@ class InflationController extends Controller
                 $data[$header[$index]][] = $col;
             }
         }
-        $data1 = $data[$header[$index1]];
-        $data2 = $data[$header[$index2]];
-        $data3 = [];
-        foreach ($data1 as $index => $value) {
-            $data3[] = $data2[$index] == 0 ? 0 : round($value / $data2[$index], 2);
+        $moneyData = $data[$header[$index1]];
+        $goodsData = $data[$header[$index2]];
+        $quantity = [];
+        foreach ($moneyData as $index => $value) {
+            $quantity[] = $goodsData[$index] == 0 ? 0 : round($value / $goodsData[$index], 2);
         }
+
+        $data = array_map(null, ...[$data['Évek'], $moneyData, $goodsData, $quantity]);
+        $firstMeaningfulRow = [];
+        foreach ($data as $row) {
+            if ($row[2] > 0) {
+                $firstMeaningfulRow = $row;
+                break;
+            }
+        }
+        $lastMeaningfulRow = end($data);
 
         return view('inflation', [
             'header' => [$header[$index1], $header[$index2], 'Ennyire elég'],
-            'data' => array_map(null, ...[$data['Évek'], $data1, $data2, $data3]),
+            'data' => $data,
             'goods' => $goods,
-            'moneyTypes' => $moneyTypes
+            'moneyTypes' => $moneyTypes,
+            'firstMeaningfulRow' => $firstMeaningfulRow,
+            'lastMeaningfulRow' => $lastMeaningfulRow
         ]);
     }
 }
