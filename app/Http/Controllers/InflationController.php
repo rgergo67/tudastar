@@ -10,7 +10,7 @@ class InflationController extends Controller
 {
     public function theWorthOfMoney(): View
     {
-        $index1 = request('index1', 3);
+        $index1 = request('index1', 1);
         $index2 = request('index2', 4);
         $inflation = Excel::toCollection(new InflationImport(), 'files/inflation.xlsx', 'resources', \Maatwebsite\Excel\Excel::XLSX)[0];
         $header = $inflation->shift();
