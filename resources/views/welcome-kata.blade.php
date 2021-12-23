@@ -34,9 +34,15 @@
             </div>
         </div>
         <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-2/5 xl:w-1/2 flex items-center">
-            <picture>
+            <picture class="relative group">
                 <source type="image/webp" media="(min-width:640px)" srcset="/images/beosztom_hu_hero_transparent_1200_713.webp" width="1200" height="713">
-                <img class="w-full" src="/images/beosztom_hu_hero_transparent_1200_713.png" loading="lazy" width="1200" height="713"  alt="Költségvetés készítő és pénz beosztó alkalmazás: Beosztom.hu">
+                <img class="w-full" src="/images/beosztom_hu_hero_transparent_640_1340.png" loading="lazy" width="1200" height="713"  alt="Költségvetés készítő és pénz beosztó alkalmazás: Beosztom.hu">
+                <a href="https://youtu.be/tuopG4lSeE4" target="_blank" class="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20" viewBox="0 0 68 48">
+                        <path class="group-hover:opacity-100 opacity-80" fill="red" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"/>
+                        <path d="M 45,24 27,14 27,34" fill="white"/>
+                    </svg>
+                </a>
             </picture>
         </div>
     </div>
