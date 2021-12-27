@@ -8,7 +8,7 @@
 
 <p>A probléma ott kezdődik, hogy a bankszámlán levő pénzt nehéz perselybe tenni. Erre nyújt megoldást a beosztom.hu a virtuális perselyekkel és kategóriákkal, de mielőtt belevágunk a legfontosabb: </p>
 
-<p><strong>Nem akarunk lehúzni!</strong> Fél évig tudod használni az oldalt, mielőtt eldöntenéd, hogy megéri-e az árát. Ha nem jött be, nem kell semmit magyarázkodni, egyszerűen tovább állsz és kész, megértjük. Sőt még ekkor is azt javasoljuk, hogy tarts ki a pénzed beosztása mellett, használj erre jegyzetfüzetet vagy vezesd Google Docsban. A pénzügyi jólét egyik alapja az, hogy előre be tudd osztani a pénzed.</p>
+<p><strong>Nem akarunk lehúzni!</strong> Egy hónapig tudod használni az oldalt, mielőtt eldöntenéd, hogy megéri-e az árát. Ha nem jött be, nem kell semmit magyarázkodni, egyszerűen tovább állsz és kész, megértjük. Sőt még ekkor is azt javasoljuk, hogy tarts ki a pénzed beosztása mellett, használj erre jegyzetfüzetet vagy vezesd Google Docsban. A pénzügyi jólét egyik alapja az, hogy előre be tudd osztani a pénzed.</p>
 
 <h2>Hogyan tudom beosztani a pénzem előre?</h2>
 

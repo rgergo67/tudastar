@@ -9,5 +9,7 @@
         </div>
     </div>
 
+    <x-welcome.demo-section />
+
     <x-footer />
 </x-guest-layout>
