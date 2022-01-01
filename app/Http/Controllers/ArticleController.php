@@ -30,7 +30,7 @@ class ArticleController extends Controller
         $article = Article::firstWhere('slug', $slug);
         return is_null($article)
             ? view('articles.index', [
-                'articles' => Article::all(),
+                'articles' => Article::orderBy('id', 'desc')->simplePaginate(9),
             ])
             : view('articles.show', [
                 'article' => $article,
