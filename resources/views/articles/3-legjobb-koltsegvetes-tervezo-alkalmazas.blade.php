@@ -55,7 +55,7 @@
 
         <h4>Ár</h4>
 
-        <p>30 napos próbaverzió után az éves díj a cikk írásának pillanatában 6.000 Ft / év</p>
+        <p>30 napos próbaverzió után az éves díj a cikk írásának pillanatában 1.980 Ft / év</p>
     </x-article>
 </x-blog-layout>
 
