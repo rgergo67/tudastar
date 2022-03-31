@@ -14,6 +14,21 @@
                     <div class="relative">
                         <dt>
                             <div class="absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md">
+                                <!-- Heroicon name: outline/users -->
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Ingyenes</p>
+                        </dt>
+                        <dd class="mt-2 ml-16 text-base text-gray-500">
+                            Használd rendszeresen, tedd rendbe a pénzügyeidet, ha pedig teheted, támogasd az oldal működését.
+                        </dd>
+                    </div>
+
+                    <div class="relative">
+                        <dt>
+                            <div class="absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md">
                                 <!-- Heroicon name: outline/view-list -->
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -38,21 +53,6 @@
                         </dt>
                         <dd class="mt-2 ml-16 text-base text-gray-500">
                             Minden funkciót használhatsz, az első pillanattól kezdve.
-                        </dd>
-                    </div>
-
-                    <div class="relative">
-                        <dt>
-                            <div class="absolute h-12 w-12 flex items-center justify-center bg-indigo-500 rounded-md">
-                                <!-- Heroicon name: outline/users -->
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                            </div>
-                            <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Ingyenes</p>
-                        </dt>
-                        <dd class="mt-2 ml-16 text-base text-gray-500">
-                            Használd rendszeresen, tedd rendbe a pénzügyeidet, ha pedig teheted, támogasd az oldal működését.
                         </dd>
                     </div>
                 </dl>
