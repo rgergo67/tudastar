@@ -8,8 +8,8 @@ use Maatwebsite\Excel\Concerns\ToCollection;
 class InflationImport implements ToCollection
 {
     /**
-    * @param Collection $collection
-    */
+     * @param Collection $collection
+     */
     public function collection(Collection $collection)
     {
         //

@@ -15,7 +15,7 @@ class InflationController extends Controller
         $inflation = Excel::toCollection(new InflationImport(), 'files/inflation.xlsx', 'resources', \Maatwebsite\Excel\Excel::XLSX)[0];
         $header = $inflation->shift();
         $goods = $header->slice(4);
-        $moneyTypes = $header->slice(1,3);
+        $moneyTypes = $header->slice(1, 3);
         $data = [];
         foreach ($inflation as $row) {
             foreach ($row as $index => $col) {
@@ -45,7 +45,7 @@ class InflationController extends Controller
             'goods' => $goods,
             'moneyTypes' => $moneyTypes,
             'firstMeaningfulRow' => $firstMeaningfulRow,
-            'lastMeaningfulRow' => $lastMeaningfulRow
+            'lastMeaningfulRow' => $lastMeaningfulRow,
         ]);
     }
 }

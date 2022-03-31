@@ -22,6 +22,6 @@ return [
     'sent' => 'Elküldtük e-mailben a jelszó változtató linket.',
     'throttled' => 'Túl sokszor próbálkoztál egymás után, kérjük próbáld újra néhány perc múlva.',
     'token' => 'A link amire kattintottál nem jó. Vagy hibásan másoltad ki, vagy lejárt a felhasználási ideje (általában 1 óra kiküldéstől számítva), vagy már egyszer felhasználtad jelszó változtatásra.',
-    'user' => "Ilyen e-mail címmel nem találunk senkit. Nem gépelted véletlenül félre?",
+    'user' => 'Ilyen e-mail címmel nem találunk senkit. Nem gépelted véletlenül félre?',
 
 ];

@@ -14,17 +14,15 @@
 
                 <p>Ahhoz, hogy használhasd, regisztrálnod kell, mely során nevedet és e-mail címedet tároljuk el. A program használata során kategóriákat és perselyeket hozhatsz létre, melyekbe virtuálisan beoszthatod a pénzed. Az adatok titkosított merevlemezen vannak tárolva.</p>
 
-                <p>A programot 2 napig anonim módon tudod tesztelni, utána minden adatot törlünk. Amennyiben tetszik amit láttál, hosszabbíthatsz 30 nappal, ez olyan, mintha regisztrálnál egy új fiókot, csak a próba időszak adatai nem vesznek el. A 30 nap során bármikor előfizethetsz 1 évre, melyet a 30 nap lejártának végétől fogunk számítani. Előfizetés meghosszabbítására 120 napod van, utána adataidat töröljük.</p>
+                <p>A programot 2 napig anonim módon tudod tesztelni, utána minden adatot törlünk. Amennyiben tetszik amit láttál, élesítheted fiókod. Ez olyan, mintha regisztrálnál egy új fiókot, csak a próba időszak adatai nem vesznek el. </p>
 
-                <p>Hírlevelet és reklámokat nem küldünk az e-mail címedre, kizárólag az üzemeltetéshez szükséges információkat (e-mail cím visszaigazolás, értesítés fizetésről, számla). Amennyiben kérsz mégis értesítést akciókról tippekről, akkor a profil menüpont alatt tudod engedélyezni ezt.</p>
+                <p>Hírlevelet és reklámokat nem küldünk az e-mail címedre, kizárólag az üzemeltetéshez szükséges információkat (e-mail cím visszaigazolás, értesítés fizetésről, számla).</p>
 
-                <p>Nem helyezünk el reklámokat az oldalon.</p>
-
-                <p>Fizetni a Barion segítségével tudsz bankkártyával, számlát a fizetést követően állítunk ki. Ha esetleg utalni szeretnél, a {{ config('mail.from.address') }} címen tudod ezt jelezni.</p>
+                <p>Az oldal működését Barion segítségével tudod támogatni, számlát a fizetést követően állítunk ki. Ha esetleg utalni szeretnél, a {{ config('mail.from.address') }} címen tudod ezt jelezni.</p>
 
                 <h2>Második rész</h2>
 
-                <p>A beosztom.hu weboldal böngészésével és használatával Ön tudomásul veszi a honlap használatára és szolgáltatásaira vonatkozó általános szerződési és felhasználási feltételeket, az adatkezelési feltételeket és azokat magára nézve kötelezőnek ismeri el, és minden pontjával egyetért. Kérem, amennyiben vásárlója, illetve aktív felhasználója kíván lenni portálunknak, figyelmesen olvassa el az alábbiakat és kizárólag abban az esetben vegye igénybe a szolgáltatásokat,  amennyiben  minden pontjával egyetért,  és  kötelező érvényűnek  tekinti magára  nézve.  Tudomásul veszi, hogy regisztráció esetén a jelen ÁSZF elfogadása nyilatkozatnak minősül és fizetési kötelezettséget von maga után, amennyiben meg van elégedve a szolgáltatással. Amennyiben elégedetlen, a féléves díjat megfizetni nem köteles, ebben az esetben az oldal további használatára nem jogosult. Jelen dokumentum elektronikus formában kerül megkötésre,  nem kerül iktatásra. Magatartási kódexre nem utal. Amennyiben a Szerződési és felhasználási feltételek elolvasása után további kérdése lenne, kérjük, hogy vegye fel velünk a kapcsolatot az alábbi elérhetőségek valamelyikén!</p>
+                <p>A beosztom.hu weboldal böngészésével és használatával Ön tudomásul veszi a honlap használatára és szolgáltatásaira vonatkozó általános szerződési és felhasználási feltételeket, az adatkezelési feltételeket és azokat magára nézve kötelezőnek ismeri el, és minden pontjával egyetért. Kérem, amennyiben vásárlója, illetve aktív felhasználója kíván lenni portálunknak, figyelmesen olvassa el az alábbiakat és kizárólag abban az esetben vegye igénybe a szolgáltatásokat,  amennyiben  minden pontjával egyetért,  és  kötelező érvényűnek  tekinti magára  nézve.  Tudomásul veszi, hogy regisztráció esetén a jelen ÁSZF elfogadása nyilatkozatnak minősül. Jelen dokumentum elektronikus formában kerül megkötésre,  nem kerül iktatásra. Magatartási kódexre nem utal. Amennyiben a Szerződési és felhasználási feltételek elolvasása után további kérdése lenne, kérjük, hogy vegye fel velünk a kapcsolatot az alábbi elérhetőségek valamelyikén!</p>
 
                 <h3>A szerződés hatálya, a szerződő felek</h3>
 
@@ -48,15 +46,13 @@
                     <li>Web: www.digitalocean.com</li>
                 </ul>
 
-                <p>Ratting Gergely egyéni vállalkozó, mint elektronikus szolgáltatást nyújtó Szolgáltató (a továbbiakban: Szolgáltató) által üzemeltetett beosztom.hu internetes weboldal használatának jogi feltételeit és az azzal kapcsolatos tájékoztatást tartalmazza. Ön regisztrációjával jelen szerződést elfogadja és kijelenti, hogy ismeri és magára nézve kötelezőnek tekinti az Általános Szerződési Feltételeket, amely Ön, mint vevő (a továbbiakban: Vevő) és az üzemeltető Szolgáltató között a regisztrációval létrejön. A beosztom.hu weboldal fenntartja a jogot, hogy előzetes értesítés nélkül módosítsa az Általános Szerződési Feltételeket, azonban a változtatások nem térhetnek el a jogszabályi előírásoktól és nem vonatkozhat a teljesítés alatt lévő szolgáltatásokra. A regisztrációval a Vevő és a Szolgáltató között távollévők között kötött szerződés jön létre a jelen dokumentumban leírt feltételek szerint. Szolgáltató kötelezettséget vállal a szolgáltatás tekintetében a tőle elvárható legkörültekintőbb magatartás tanúsítására. A Vevő a szolgáltatás összegét bankkártyával kifizeti, aminek bankszámlánkra való beérkezése után a szolgáltató előre meghatározott ideig teszi elérhetővé a szolgáltatást. A regisztrációhoz a Vevő azon adatai szükségesek, amelyeket a beosztom.hu regisztrációs oldalán illetve a fizetés oldalon kell megadnia. A hiányosan, hamisan vagy pontatlanul megadott adatokkal a szerződés nem jön létre. Amennyiben a Vevő által a regisztráció során megadott adatok nem felelnek meg a valóságnak, Szolgáltató a regisztrációt törli és a teljesítésétől indoklás nélkül eláll. A fizetéssel Vevő kijelenti, hogy ismeri a szolgáltatást, annak paramétereit, tulajdonságait és jellegzetességeit, a bruttó árakat és fizetési feltételeket, és meg van elégedve a szolgáltatással.</p>
+                <p>Ratting Gergely egyéni vállalkozó, mint elektronikus szolgáltatást nyújtó Szolgáltató (a továbbiakban: Szolgáltató) által üzemeltetett beosztom.hu internetes weboldal használatának jogi feltételeit és az azzal kapcsolatos tájékoztatást tartalmazza. Ön regisztrációjával jelen szerződést elfogadja és kijelenti, hogy ismeri és magára nézve kötelezőnek tekinti az Általános Szerződési Feltételeket, amely Ön, mint vevő (a továbbiakban: Vevő) és az üzemeltető Szolgáltató között a regisztrációval létrejön. A beosztom.hu weboldal fenntartja a jogot, hogy előzetes értesítés nélkül módosítsa az Általános Szerződési Feltételeket, azonban a változtatások nem térhetnek el a jogszabályi előírásoktól és nem vonatkozhat a teljesítés alatt lévő szolgáltatásokra. A regisztrációval a Vevő és a Szolgáltató között távollévők között kötött szerződés jön létre a jelen dokumentumban leírt feltételek szerint. Szolgáltató kötelezettséget vállal a szolgáltatás tekintetében a tőle elvárható legkörültekintőbb magatartás tanúsítására. A regisztrációhoz a Vevő azon adatai szükségesek, amelyeket a beosztom.hu regisztrációs oldalán illetve a támogatás oldalon kell megadnia. A hiányosan, hamisan vagy pontatlanul megadott adatokkal a szerződés nem jön létre. Amennyiben a Vevő által a regisztráció során megadott adatok nem felelnek meg a valóságnak, Szolgáltató a regisztrációt törli és a teljesítésétől indoklás nélkül eláll. A fizetéssel Vevő kijelenti, hogy ismeri a szolgáltatást, annak paramétereit, tulajdonságait és jellegzetességeit, a bruttó árakat és fizetési feltételeket, és meg van elégedve a szolgáltatással.</p>
 
                 <h3>Regisztráció</h3>
 
                 <p>Beosztom.hu oldalon regisztráció nélkül a Tudástárban lévő tartalom érhető el. Regisztrációt követően érhető el a pénz beosztását segítő szolgáltatás.</p>
 
-                <h3>Fizetés menete</h3>
-
-                <p>Az oldal használatáért 1 évre előre lehet fizetni. Amennyiben a nem fizetés meghaladja a 14 napot, a fiók felfüggesztett állapotba kerül, és kizárólag a fizetés menüpont lesz elérhető. Ha az előfizetés lejárta után 120 nappal nem kerül hosszabbításra az előfizetés, a fiók és minden hozzá tartozó adat véglegesen törlésre kerül.</p>
+                <h3>Támogatás fizetésének menete</h3>
 
                 <h4>Barion fizetés (bankkártyával)</h4>
 
@@ -67,12 +63,12 @@
                 <p><a href="https://beosztom.hu/barion/">A Barionról további részletek itt.</a></p>
 
                 <h4>Banki utalás</h4>
-                <p>A féléves használat díját utalással is ki tudja egyenlíteni, amennyiben ezt előre jelzi a {{ config('mail.from.address') }} címen. Utalni a Ratting Gergely egyéni vállalkozó OTP banknál vezetett 11773487-00981044 számú bankszámlaszámára tud. Az utalás kedvezményezettje Ratting Gergely egyéni vállalkozó. Az utalás közlemény rovatában az e-mailes egyeztetés során küldött díjbekérő sorszámát kell megadni! Az előfizetés meghosszabbítása az összeg beérkezését követően kerül beállításra.</p>
+                <p>A támogatást utalással is ki tudja fizetni, amennyiben ezt előre jelzi a {{ config('mail.from.address') }} címen. Utalni a Ratting Gergely egyéni vállalkozó OTP banknál vezetett 11773487-00981044 számú bankszámlaszámára tud. Az utalás kedvezményezettje Ratting Gergely egyéni vállalkozó. Az utalás közlemény rovatában az e-mailes egyeztetés során küldött díjbekérő sorszámát kell megadni! Az előfizetés meghosszabbítása az összeg beérkezését követően kerül beállításra.</p>
 
                 <p>Kérjük, hogy átutalásos fizetés esetén az utalást csak azután indítsa el, hogy megkapta a díjbekérőt!</p>
 
                 <h3>Elállás joga</h3>
-                <p>Amennyiben nem elégedett a szolgáltatással, a Profil menüpontban bármikor törölheti fiókját, vagy tétlenség esetén az előfizetés lejárta után 120 nappal a rendszer automatikusan törli azt.</p>
+                <p>Amennyiben nem elégedett a szolgáltatással, a Profil menüpontban bármikor törölheti fiókját, vagy tétlenség esetén 180 nappal a rendszer automatikusan törli azt.</p>
 
                 <h4>Az elállás joghatásai</h4>
 

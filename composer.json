@@ -8,12 +8,12 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "ext-intl": "*",
-        "fideloper/proxy": "^4.4",
+        "friendsofphp/php-cs-fixer": "^3.7",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.12",
+        "laravel/framework": "^9.0",
         "laravel/tinker": "^2.5",
         "maatwebsite/excel": "^3.1",
         "silber/page-cache": "^1.0",
@@ -22,16 +22,15 @@
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
         "barryvdh/laravel-ide-helper": "^2.9",
-        "facade/ignition": "^2.5",
+        "spatie/laravel-ignition": "^1.0",
         "fakerphp/faker": "^1.9.1",
         "laravel/dusk": "^6.15",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
-        "nunomaduro/collision": "^5.0",
+        "nunomaduro/collision": "^6.1",
         "pestphp/pest-plugin-laravel": "^1.0",
         "phpunit/phpunit": "^9.3.3",
-        "spatie/laravel-ray": "^1.17",
-        "wulfheart/pretty_routes": "^0.3.0"
+        "spatie/laravel-ray": "^1.17"
     },
     "config": {
         "optimize-autoloader": true,
@@ -74,6 +73,12 @@
             "@php artisan ide-helper:generate",
             "@php artisan ide-helper:meta",
             "@php artisan ide-helper:models --nowrite"
+        ],
+        "sniff": [
+            "./vendor/bin/php-cs-fixer fix -vvv --dry-run --show-progress=dots"
+        ],
+        "lint": [
+            "./vendor/bin/php-cs-fixer fix -vvv --show-progress=dots"
         ]
     }
 }

@@ -38,8 +38,8 @@ class GenerateSitemap extends Command
             ->writeToFile(public_path('sitemap.xml'));
 
         // ping search engines
-        $sitemapUrl = "https://tudastar.beosztom.hu/sitemap.xml";
-        Http::get('https://www.google.com/ping?sitemap=' . $sitemapUrl);
-        Http::get('https://www.bing.com/ping?siteMap=' . $sitemapUrl);
+        $sitemapUrl = 'https://tudastar.beosztom.hu/sitemap.xml';
+        Http::get('https://www.google.com/ping?sitemap='.$sitemapUrl);
+        Http::get('https://www.bing.com/ping?siteMap='.$sitemapUrl);
     }
 }

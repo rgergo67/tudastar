@@ -16,25 +16,27 @@ class ArticleController extends Controller
     public function adminShow(string $slug): View
     {
         $article = Article::firstWhere('slug', $slug);
+
         return is_null($article)
             ? view('articles.admin_index', [
                 'articles' => Article::all(),
             ])
             : view('articles.admin_show', [
-            'article' => Article::firstWhere('slug', $slug)
-        ]);
+                'article' => Article::firstWhere('slug', $slug),
+            ]);
     }
 
     public function show(string $slug): View
     {
         $article = Article::firstWhere('slug', $slug);
+
         return is_null($article)
             ? view('articles.index', [
                 'articles' => Article::orderBy('id', 'desc')->simplePaginate(9),
             ])
             : view('articles.show', [
                 'article' => $article,
-                'recommendedArticles' => Article::inRandomOrder()->where('type', $article->type)->where('id', '<>', $article->id)->limit(3)->get()
+                'recommendedArticles' => Article::inRandomOrder()->where('type', $article->type)->where('id', '<>', $article->id)->limit(3)->get(),
             ]);
     }
 
@@ -77,10 +79,10 @@ class ArticleController extends Controller
             'header_image' => $fileName ?? null,
         ]);
 
-        Artisan::call("page-cache:clear /cikkek");
-        Artisan::call("sitemap:generate");
+        Artisan::call('page-cache:clear /cikkek');
+        Artisan::call('sitemap:generate');
 
-        return redirect()->route("articles.show", $article->slug);
+        return redirect()->route('articles.show', $article->slug);
     }
 
     public function edit(Article $article): View
@@ -105,10 +107,10 @@ class ArticleController extends Controller
             $article->save();
         }
 
-        Artisan::call("page-cache:clear /cikkek");
+        Artisan::call('page-cache:clear /cikkek');
         Artisan::call("page-cache:clear /cikkek/$article->slug");
 
-        return redirect()->route("articles.show", $article->slug);
+        return redirect()->route('articles.show', $article->slug);
     }
 
     public function destroy(Article $article): RedirectResponse
@@ -118,9 +120,9 @@ class ArticleController extends Controller
 
         $article->delete();
 
-        Artisan::call("page-cache:clear /cikkek");
-        Artisan::call("sitemap:generate");
+        Artisan::call('page-cache:clear /cikkek');
+        Artisan::call('sitemap:generate');
 
-        return redirect()->route("articles.index");
+        return redirect()->route('articles.index');
     }
 }

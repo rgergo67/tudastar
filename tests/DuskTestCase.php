@@ -10,8 +10,8 @@ use Laravel\Dusk\TestCase as BaseTestCase;
 
 abstract class DuskTestCase extends BaseTestCase
 {
-    use CreatesApplication,
-        DatabaseTransactions;
+    use CreatesApplication;
+    use DatabaseTransactions;
 
     /**
      * Prepare for Dusk test execution.

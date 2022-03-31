@@ -9,10 +9,10 @@ class KnowledgeController extends Controller
 {
     public function __invoke(string $document): View
     {
-        return view()->exists('knowledge.' . $document)
+        return view()->exists('knowledge.'.$document)
             ? view('knowledge.show', [
-                    'content' => view('knowledge.' . $document)
-                ])
+                'content' => view('knowledge.'.$document),
+            ])
             : view('knowledge');
     }
 }

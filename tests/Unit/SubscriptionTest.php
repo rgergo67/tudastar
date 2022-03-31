@@ -7,7 +7,7 @@ test('inGracePeriod works', function () {
     $user->subscription_ends_at = now()->subDays(config('subscription.grace_period_length'));
     expect($user->inGracePeriod())->toBeFalse();
 
-    $user->subscription_ends_at = now()->subDays(config('subscription.grace_period_length')-1);
+    $user->subscription_ends_at = now()->subDays(config('subscription.grace_period_length') - 1);
     expect($user->inGracePeriod())->toBeTrue();
 });
 
