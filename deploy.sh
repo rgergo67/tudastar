@@ -34,7 +34,5 @@ $PHP artisan config:cache
 $PHP artisan page-cache:clear
 printf "${grn}Cache cleared${end}\n"
 
-$PHP artisan horizon:terminate
-
 $PHP artisan up
 printf "${grn}Maintenance mode disabled${end}\n"
