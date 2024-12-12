@@ -3,11 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 Route::domain(config('app.app_domain'))->group(function () {
-    Route::get('/regisztracio')
+    Route::get('/register')
         ->middleware('guest')
         ->name('register');
 
-    Route::get('/belepes')
+    Route::get('/login')
         ->middleware('guest')
         ->name('login');
 

@@ -12,13 +12,13 @@
 
                 <p>Ratting Gergely vagyok, azért készítettem az oldalt, hogy saját pénzügyi problémámra megoldást nyújtsak. Úgy gondoltam, ez hasznos lehet másnak is, ezért az oldalt elérhetővé tettem a beosztom.hu címen.</p>
 
-                <p>Ahhoz, hogy használhasd, regisztrálnod kell, mely során nevedet és e-mail címedet tároljuk el. A program használata során kategóriákat és perselyeket hozhatsz létre, melyekbe virtuálisan beoszthatod a pénzed. Az adatok titkosított merevlemezen vannak tárolva.</p>
-
-                <p>A programot 2 napig anonim módon tudod tesztelni, utána minden adatot törlünk. Amennyiben tetszik amit láttál, élesítheted fiókod. Ez olyan, mintha regisztrálnál egy új fiókot, csak a próba időszak adatai nem vesznek el. </p>
+                <p>Ahhoz, hogy használhasd, regisztrálnod kell, mely során nevedet és e-mail címedet tároljuk el. A program használata során kategóriákat és perselyeket hozhatsz létre, melyekbe virtuálisan beoszthatod a pénzed.</p>
 
                 <p>Hírlevelet és reklámokat nem küldünk az e-mail címedre, kizárólag az üzemeltetéshez szükséges információkat (e-mail cím visszaigazolás, értesítés fizetésről, számla).</p>
 
-                <p>Az oldal működését Barion segítségével tudod támogatni, számlát a fizetést követően állítunk ki. Ha esetleg utalni szeretnél, a {{ config('mail.from.address') }} címen tudod ezt jelezni.</p>
+                <p>Fizetni évente, utólag kell. Regisztrálsz, használod egy évig, ha hasznos volt kifizeted, ha nem, nincs teendőd vagy fizetési kötelezettséged (a fiókodat automatikusan töröljük)</p>
+
+                <p>Fizetni Barion segítségével tudsz bankkártyával, számlát a fizetést követően állítunk ki. Ha esetleg utalni szeretnél, a {{ config('mail.from.address') }} címen tudod ezt jelezni.</p>
 
                 <h2>Második rész</h2>
 
@@ -29,30 +29,22 @@
                 <p>Az üzemeltető adatai:</p>
 
                 <ul>
-                    <li><b>Vállalkozás neve:</b> Ratting Gergely egyéni vállalkozó (KATA alanyi adó mentes)</li>
-                    <li><b>Székhely:</b> 7712 Dunaszekcső, Rév utca 25</li>
+                    <li><b>Vállalkozás neve:</b> Blaskó Brigitta egyéni vállalkozó (alanyi adó mentes)</li>
+                    <li><b>Székhely:</b> 7700 Mohács, Lovász utca 20</li>
                     <li><b>Postai cím:</b> 7700 Mohács, Lovász utca 20</li>
-                    <li><b>Adószám:</b> 67973130-1-22</li>
-                    <li><b>Bankszámlaszám:</b> 11773487-00981044</li>
+                    <li><b>Adószám:</b> 59328896-1-22</li>
+                    <li><b>Bankszámlaszám:</b> 11773425-00839741</li>
                     <li><b>Kibocsájtó cégbíróság:</b> Pécsi Törvényszék Cégbírósága</li>
                     <li><b>E-mail cím:</b> {{ config('mail.from.address') }}</li>
                 </ul>
 
-                <p>Tárhelyszolgáltató:</p>
-                <ul>
-                    <li>Digital Ocean</li>
-                    <li>101 Avenue of the Americas, 10th Floor</li>
-                    <li>New York, NY 10013</li>
-                    <li>Web: www.digitalocean.com</li>
-                </ul>
-
-                <p>Ratting Gergely egyéni vállalkozó, mint elektronikus szolgáltatást nyújtó Szolgáltató (a továbbiakban: Szolgáltató) által üzemeltetett beosztom.hu internetes weboldal használatának jogi feltételeit és az azzal kapcsolatos tájékoztatást tartalmazza. Ön regisztrációjával jelen szerződést elfogadja és kijelenti, hogy ismeri és magára nézve kötelezőnek tekinti az Általános Szerződési Feltételeket, amely Ön, mint vevő (a továbbiakban: Vevő) és az üzemeltető Szolgáltató között a regisztrációval létrejön. A beosztom.hu weboldal fenntartja a jogot, hogy előzetes értesítés nélkül módosítsa az Általános Szerződési Feltételeket, azonban a változtatások nem térhetnek el a jogszabályi előírásoktól és nem vonatkozhat a teljesítés alatt lévő szolgáltatásokra. A regisztrációval a Vevő és a Szolgáltató között távollévők között kötött szerződés jön létre a jelen dokumentumban leírt feltételek szerint. Szolgáltató kötelezettséget vállal a szolgáltatás tekintetében a tőle elvárható legkörültekintőbb magatartás tanúsítására. A regisztrációhoz a Vevő azon adatai szükségesek, amelyeket a beosztom.hu regisztrációs oldalán illetve a támogatás oldalon kell megadnia. A hiányosan, hamisan vagy pontatlanul megadott adatokkal a szerződés nem jön létre. Amennyiben a Vevő által a regisztráció során megadott adatok nem felelnek meg a valóságnak, Szolgáltató a regisztrációt törli és a teljesítésétől indoklás nélkül eláll. A fizetéssel Vevő kijelenti, hogy ismeri a szolgáltatást, annak paramétereit, tulajdonságait és jellegzetességeit, a bruttó árakat és fizetési feltételeket, és meg van elégedve a szolgáltatással.</p>
+                <p>Blaskó Brigitta vállalkozó, mint elektronikus szolgáltatást nyújtó Szolgáltató (a továbbiakban: Szolgáltató) által üzemeltetett beosztom.hu internetes weboldal használatának jogi feltételeit és az azzal kapcsolatos tájékoztatást tartalmazza. Ön regisztrációjával jelen szerződést elfogadja és kijelenti, hogy ismeri és magára nézve kötelezőnek tekinti az Általános Szerződési Feltételeket, amely Ön, mint vevő (a továbbiakban: Vevő) és az üzemeltető Szolgáltató között a regisztrációval létrejön. A beosztom.hu weboldal fenntartja a jogot, hogy előzetes értesítés nélkül módosítsa az Általános Szerződési Feltételeket, azonban a változtatások nem térhetnek el a jogszabályi előírásoktól és nem vonatkozhat a teljesítés alatt lévő szolgáltatásokra. A regisztrációval a Vevő és a Szolgáltató között távollévők között kötött szerződés jön létre a jelen dokumentumban leírt feltételek szerint. Szolgáltató kötelezettséget vállal a szolgáltatás tekintetében a tőle elvárható legkörültekintőbb magatartás tanúsítására. A regisztrációhoz a Vevő azon adatai szükségesek, amelyeket a beosztom.hu regisztrációs oldalán kell megadnia. A hiányosan, hamisan vagy pontatlanul megadott adatokkal a szerződés nem jön létre. Amennyiben a Vevő által a regisztráció során megadott adatok nem felelnek meg a valóságnak, Szolgáltató a regisztrációt törli és a teljesítésétől indoklás nélkül eláll. A fizetéssel Vevő kijelenti, hogy ismeri a szolgáltatást, annak paramétereit, tulajdonságait és jellegzetességeit, a bruttó árakat és fizetési feltételeket, és meg van elégedve a szolgáltatással.</p>
 
                 <h3>Regisztráció</h3>
 
                 <p>Beosztom.hu oldalon regisztráció nélkül a Tudástárban lévő tartalom érhető el. Regisztrációt követően érhető el a pénz beosztását segítő szolgáltatás.</p>
 
-                <h3>Támogatás fizetésének menete</h3>
+                <h3>Fizetés menete</h3>
 
                 <h4>Barion fizetés (bankkártyával)</h4>
 
@@ -60,15 +52,15 @@
 
                 <p>Bankkártyás fizetés választása esetén átirányítjuk a Barion fizetőoldalára, így a fizetést nem a weboldalon, hanem közvetlenül a Barion által üzemeltetett, a nemzetközi kártyatársaságok szabályai és biztonsági előírásai szerint működő oldalon történik.</p>
 
-                <p><a href="https://beosztom.hu/barion/">A Barionról további részletek itt.</a></p>
+                <p><a href="https://tudastar.beosztom.hu/tudastar/barion">A Barionról további részletek itt.</a></p>
 
                 <h4>Banki utalás</h4>
-                <p>A támogatást utalással is ki tudja fizetni, amennyiben ezt előre jelzi a {{ config('mail.from.address') }} címen. Utalni a Ratting Gergely egyéni vállalkozó OTP banknál vezetett 11773487-00981044 számú bankszámlaszámára tud. Az utalás kedvezményezettje Ratting Gergely egyéni vállalkozó. Az utalás közlemény rovatában az e-mailes egyeztetés során küldött díjbekérő sorszámát kell megadni! Az előfizetés meghosszabbítása az összeg beérkezését követően kerül beállításra.</p>
+                <p>Az összeget utalással is ki tudja fizetni, amennyiben ezt előre jelzi a {{ config('mail.from.address') }} címen. Utalni a Blaskó Brigitta vállalkozó OTP banknál vezetett 11773425-00839741 számú bankszámlaszámára tud díjbekérő alapján. Az utalás közlemény rovatában az e-mailes egyeztetés során küldött díjbekérő sorszámát kell megadni! A fiók hosszabbítása az összeg beérkezését követően kerül beállításra.</p>
 
                 <p>Kérjük, hogy átutalásos fizetés esetén az utalást csak azután indítsa el, hogy megkapta a díjbekérőt!</p>
 
                 <h3>Elállás joga</h3>
-                <p>Amennyiben nem elégedett a szolgáltatással, a Profil menüpontban bármikor törölheti fiókját, vagy tétlenség esetén 180 nappal a rendszer automatikusan törli azt.</p>
+                <p>Amennyiben nem elégedett a szolgáltatással, a Profil menüpontban bármikor törölheti fiókját, vagy tétlenség esetén az utolsó tevékenységet követően 180 nappal a rendszer automatikusan törli azt.</p>
 
                 <h4>Az elállás joghatásai</h4>
 
@@ -80,10 +72,9 @@
 
                 <p>Tárhelyszolgáltató:</p>
                 <ul>
-                    <li>Digital Ocean</li>
-                    <li>101 Avenue of the Americas, 10th Floor</li>
-                    <li>New York, NY 10013</li>
-                    <li>Web: www.digitalocean.com</li>
+                    <li>Tárhely.Eu Szolgáltató Kft.</li>
+                    <li>1132 Budapest, Victor Hugo u. 18-22.</li>
+                    <li>Web: https://tarhely.eu/</li>
                 </ul>
 
                 <h4>Adatok felvétele, felhasználása és továbbítása</h4>
@@ -94,8 +85,8 @@
 
                 <ul>
                     <li>Név</li>
+                    <li>E-mail cím</li>
                     <li>Számlázási cím</li>
-                    <li>e-mail cím</li>
                     <li>Cég esetében: adószám</li>
                 </ul>
 
@@ -110,11 +101,11 @@
                     <li>Persellyel kapcsolatos információk: határidő, fontos-e, kiválasztott ikon</li>
                 </ul>
 
-                <p>A rendszer továbbá tárolja az egyes pénzügyi műveleteket, például pénz beosztása, kiadás, bevétel, melyet 2 évig visszamenőleg események és ebből képzett statisztika formájában lekérhet a felhasználó. 2 év elteltével az adatok törlésre kerülnek.</p>
+                <p>A rendszer továbbá tárolja az egyes pénzügyi műveleteket, például pénz beosztása, kiadás, bevétel, melyet 5 évig visszamenőleg események és ebből képzett statisztika formájában lekérhet a felhasználó. 5 év elteltével az adatok törlésre kerülnek.</p>
 
                 <h4>Adattovábbítás</h4>
 
-                <p>Az oldal használata során rendelkezésünkre bocsátott személyes és név nélküli adatait bizalmasan kezeljük, biztonságosan tároljuk, a Felhasználó hozzájárulását meghaladó módon  nem használjuk fel és nem továbbítjuk harmadik fél részére. Kivételt képez ez alól a  szamlazz.hu oldalnak történő adat továbbítás számlázás céljából.</p>
+                <p>Az oldal használata során rendelkezésünkre bocsátott személyes és név nélküli adatait bizalmasan kezeljük, biztonságosan tároljuk, a Felhasználó hozzájárulását meghaladó módon  nem használjuk fel és nem továbbítjuk harmadik fél részére. Kivételt képez ez alól a billingo.hu oldalnak történő adat továbbítás számlázás céljából.</p>
 
                 <h4>Adattárolás, adatmódosítás és törlése</h4>
 
@@ -130,7 +121,7 @@
 
                 <h4>Biztonság</h4>
 
-                <p>A weboldal PHP alapokon működő információs rendszer, biztonsági foka megfelelő, használata nem jelent kockázatot, azonban javasoljuk, hogy tegye meg az alábbi óvintézkedéseket: használjon vírus és spyware védelmi szoftvereket friss adatbázissal, telepítse az operációs rendszer biztonsági frissítéseit. A Weboldal használata feltételezi az Ügyfél részéről az Internet technikai és műszaki korlátainak ismeretét és a technológiával együtt járó hibalehetőségek elfogadását.</p>
+                <p>A Weboldal használata feltételezi az Ügyfél részéről az Internet technikai és műszaki korlátainak ismeretét és a technológiával együtt járó hibalehetőségek elfogadását. Javasoljuk a két faktoros azonosítás használatát.</p>
 
                 <h4>Jogviták rendezése</h4>
 

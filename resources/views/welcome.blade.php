@@ -9,20 +9,20 @@
                     <div class="sm:text-center lg:text-left">
                         <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                             <span class="block xl:inline">Oszd be a pénzed</span>
-                            <span class="block text-indigo-600 xl:inline">egyszerűen!</span>
+                            <span class="block text-emerald-600 xl:inline">egyszerűen!</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                             Csökkentsd az impulzus vásárlásaid, költekezz tudatosan, spórolj hatékonyan!
                         </p>
                         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <div class="rounded-md shadow w-full">
-                                <a href="{{ route('demo.create') }}" rel="nofollow" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-xl md:px-10">
-                                    Próbáld ki regisztráció nélkül!
+                                <a href="{{ route('register') }}" rel="nofollow" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base rounded-md text-white bg-emerald-600 hover:bg-emerald-700 md:py-4 md:text-xl md:px-10">
+                                    Kipróbálom
                                 </a>
                             </div>
                         </div>
                         <div class="text-center w-100 mt-6">
-                            <a href="https://youtu.be/tuopG4lSeE4" class="text-indigo-600">2 perces bemutató videó</a>
+                            <a href="https://youtu.be/tuopG4lSeE4" class="text-emerald-600">2 perces bemutató videó</a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
         <div class="flex flex-col h-full py-16 md:flex-row-reverse">
             <div class="flex-1 mb-6 mx-6">
                 <div class="text-center md:text-left">
-                    <h2 id="problema" class="text-base text-indigo-600 tracking-wide uppercase">A probléma</h2>
+                    <h2 id="problema" class="text-base text-emerald-600 tracking-wide uppercase">A probléma</h2>
                     <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                         Pénzügyi bizonytalanság
                     </p>
@@ -75,7 +75,7 @@
         <div class="flex flex-col max-w-7xl mx-auto h-full py-16 md:flex-row">
             <div class="flex-1 mb-6 mx-6">
                 <div class="text-center md:text-left">
-                    <p id="megoldas" class="text-base text-indigo-600 tracking-wide uppercase">A megoldás</p>
+                    <p id="megoldas" class="text-base text-emerald-600 tracking-wide uppercase">A megoldás</p>
                     <h2 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                         Oszd be a pénzed előre!
                     </h2>
@@ -98,11 +98,11 @@
                         <h3 class="font-bold">Válaszd szét a vállalkozásod pénzét a sajátodtól!</h3>
                         <p class="mt-0 mb-4">Segítünk előre beosztani a vállalkozásod pénzét, hogy megelőzzük a meglepetéseket. </p>
 
-                        <a href="{{ route('demo.create') }}" rel="nofollow" class="w-full flex items-center justify-center px-8 py-3 mt-10 border border-transparent  rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:px-10">
+                        <a href="{{ route('register') }}" rel="nofollow" class="w-full flex items-center justify-center px-8 py-3 mt-10 border border-transparent  rounded-md text-white bg-emerald-600 hover:bg-emerald-700 md:py-4 md:px-10">
                             Próbáld ki regisztráció nélkül!
                         </a>
                         <div class="text-center w-100 mt-6">
-                            <a href="{{ route('register') }}" class="text-indigo-600 text-base">Vagy regisztrálj egyből</a>
+                            <a href="{{ route('register') }}" class="text-emerald-600 text-base">Vagy regisztrálj egyből</a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
         <div class="flex flex-col h-full py-16 md:flex-row-reverse">
             <div class="flex-1 mb-6 mx-6">
                 <div class="text-center md:text-left">
-                    <h2 id="kinek" class="text-base text-indigo-600 tracking-wide uppercase">Kinek?</h2>
+                    <h2 id="kinek" class="text-base text-emerald-600 tracking-wide uppercase">Kinek?</h2>
                     <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                         Neked hasznos lehet?
                     </p>
@@ -155,7 +155,7 @@
     <section class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:text-center">
-                <h2 id="ar" class="text-base text-indigo-600 tracking-wide uppercase">Tudástár</h2>
+                <h2 id="ar" class="text-base text-emerald-600 tracking-wide uppercase">Tudástár</h2>
                 <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                     Ha van időd, ezeket érdemes elolvasni
                 </p>
@@ -194,7 +194,7 @@
             </div>
 
             <div class="text-center mt-10">
-                <div class="text-gray-800 text-lg">Ha gondolod, <x-a href="{{ route('knowledge.index') }}" class="text-indigo-600 group">nézd meg a teljes tudástárat <svg width="1em" height="1em" viewBox="0 0 18 18" class="inline-block ml-1 -mt-0.5 transition-transform transform group-hover:translate-x-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <div class="text-gray-800 text-lg">Ha gondolod, <x-a href="{{ route('knowledge.index') }}" class="text-emerald-600 group">nézd meg a teljes tudástárat <svg width="1em" height="1em" viewBox="0 0 18 18" class="inline-block ml-1 -mt-0.5 transition-transform transform group-hover:translate-x-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                         </svg></x-a></div>
             </div>

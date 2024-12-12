@@ -1,1 +1,1 @@
-<a {{ $attributes->merge(['class' => "group relative sm:inline shadow-link hover:shadow-link-hover"]) }}><span class="relative z-10">{{ $slot }}</span></a>
+<a {{ $attributes->merge(['class' => "text-emerald-600 hover:text-emerald-700 sm:inline"]) }}>{{ $slot }}</a>

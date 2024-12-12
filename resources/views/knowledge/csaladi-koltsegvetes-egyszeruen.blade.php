@@ -55,7 +55,7 @@
 
 <p>Olyan, ami mindenkinek jó, nincs. <x-a href="{{ route('knowledge.show', 'persely-letrehozas-pelda') }}">Itt találtok egy példát</x-a>, ezt alakíthatjátok igényeiteknek megfelelően. A legfontosabb tanács amit adhatunk, hogy kezdjétek el használni minél előbb, és minden bevétel után üljetek le tervezni, így szépen lassan kiforrja majd magát a költségvetés.</p>
 
-<p><x-a href="{{ route('register') }}">Itt tudtok regisztrálni</x-a> az oldalra, vagy <x-a href="{{ route('demo.create') }}" rel="nofollow">ide kattintva próbálhatjátok ki</x-a> regisztráció nélkül. Ezt követően menjetek végig az <x-a href="{{ route('knowledge.show', 'elso-lepesek') }}">első lépéseken</x-a>. Amikor perselyeket hoztok létre, kezdhettek mindössze 5 darabbal:</p>
+<p><x-a href="{{ route('register') }}">Itt tudtok regisztrálni</x-a> az oldalra, vagy <x-a href="{{ route('register') }}" rel="nofollow">ide kattintva próbálhatjátok ki</x-a> regisztráció nélkül. Ezt követően menjetek végig az <x-a href="{{ route('knowledge.show', 'elso-lepesek') }}">első lépéseken</x-a>. Amikor perselyeket hoztok létre, kezdhettek mindössze 5 darabbal:</p>
 
 <ol>
     <li>Adjátok össze a havi <strong>fix kiadásokat</strong> amiket muszáj kifizetni</li>

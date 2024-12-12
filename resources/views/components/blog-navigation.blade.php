@@ -20,12 +20,12 @@
                             Tudástár
                         </a>
                         <a href="{{ route('register') }}" class="font-medium text-gray-500 hover:text-gray-900" rel="nofollow">Regisztráció</a>
-                        <a href="{{ route('login') }}" class="font-medium text-indigo-600 hover:text-indigo-500" rel="nofollow">Belépés</a>
+                        <a href="{{ route('login') }}" class="font-medium text-emerald-600 hover:text-emerald-500" rel="nofollow">Belépés</a>
                     </div>
                 </div>
             </div>
 
-            <a href="{{ route('login') }}" rel="nofollow" class="flex items-center font-medium text-indigo-600 hover:text-indigo-500 md:hidden">Belépés</a>
+            <a href="{{ route('login') }}" rel="nofollow" class="flex items-center font-medium text-emerald-600 hover:text-emerald-500 md:hidden">Belépés</a>
 
             <!-- Hamburger -->
             <div class="-mr-2 flex items-center md:hidden col-span-1 justify-end">

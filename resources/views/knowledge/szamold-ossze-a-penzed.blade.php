@@ -9,7 +9,7 @@
 <blockquote>Mi azért csináljuk így, mert előbbiekhez vagy könnyebb hozzáférni, vagy viszonylag könnyű megmondani, hogy x év múlva mennyit fognak érni. Ha szeretnéd, te nyugodtan számold át utóbbiakat is forintra és oszd be, csak ne felejtsd el időnként újraszámolni és korrigálni az összegeket.
 </blockquote>
 
-<p>Ha sikerült mindent összeadni, akkor belépés után kattints az oldal tetején található <span class="text-green-600 font-bold">Minden beosztva</span> feliratra, és írd be az összeget.</p>
+<p>Ha sikerült mindent összeadni, akkor belépés után kattints az oldal tetején található <span class="text-emerald-600 font-bold">Minden beosztva</span> feliratra, és írd be az összeget.</p>
 
 <x-figure name="beosztas" title="Először kattints a szövegre vagy ceruzára, majd a megjelenő mezőbe írd be az összeget és egy megjegyzést (nem kötelező), végül üss ENTER-t vagy kattints az egyenlőség jelre." width="419" height="201" />
 

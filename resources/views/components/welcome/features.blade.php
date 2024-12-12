@@ -5,7 +5,7 @@
             <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
                 <div>
                     <div>
-            <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+            <span class="h-12 w-12 rounded-md flex items-center justify-center bg-emerald-600">
               <!-- Heroicon name: outline/inbox -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -20,7 +20,7 @@
                             Biztosan felmerült már benned is ez a kérdés. A válasz megtalálásában hatalmas segítséget fognak nyújtani a statisztikáink. Megnézheted, hogy mely hónapokban költöttél többet, mint kellett volna, sőt, még napokra lebontva is megmutatjuk ezt egy naptárban.
                         </p>
                         <div class="mt-6">
-                            <a href="{{ route('demo.create') }}" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
+                            <a href="{{ route('register') }}" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-emerald-600 hover:bg-emerald-700">
                                 Kipróbálom!
                             </a>
                         </div>
@@ -53,7 +53,7 @@
             <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
                 <div>
                     <div>
-                        <span class="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+                        <span class="h-12 w-12 rounded-md flex items-center justify-center bg-emerald-600">
                             <!-- Heroicon name: outline/sparkles -->
                           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -74,7 +74,7 @@
                             <p class="mt-4">A jó válaszokhoz jó kérdések kellenek!</p>
                         </div>
                         <div class="mt-6">
-                            <a href="{{ route('demo.create') }}" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700">
+                            <a href="{{ route('register') }}" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-emerald-600 hover:bg-emerald-700">
                                 Próbáld ki, és tedd fel a megfelelő kérdést!
                             </a>
                         </div>

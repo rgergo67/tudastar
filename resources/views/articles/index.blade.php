@@ -9,7 +9,7 @@
                 @foreach($articles as $article)
                     <x-blog-card
                         title="{{ $article->title }}"
-                        :link="route('cikkek.show', $article->slug)"
+                        :link="route('articles.show', $article->slug)"
                         description="{{ $article->description }}"
                         :headerImage="$article->header_image"
                         :createdAt="$article->created_at"

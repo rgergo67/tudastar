@@ -1,4 +1,4 @@
-<footer class="bg-indigo-600 pt-12 pb-8 lg:px-5">
+<footer class="bg-emerald-700 pt-12 pb-8 lg:px-5">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex flex-wrap text-center xl:text-left">
             <div class="xl:w-1/4 lg:w-1/2 w-full md:block hidden xl:mb-0 mb-4 xl:mx-auto">
@@ -27,7 +27,7 @@
                     <li><a href="/#kinek" class="text-white hover:text-primary py-3 block">Kinek?</a></li>
                     <li><a href="/#ar" class="text-white hover:text-primary py-3 block">Ár</a></li>
                     <li><a href="{{ route('knowledge.index') }}" class="text-white hover:text-primary py-3 block">Tudástár</a></li>
-                    <li><a href="{{ route('cikkek.index') }}" class="text-white hover:text-primary py-3 block">Cikkek</a></li>
+                    <li><a href="{{ route('articles.index') }}" class="text-white hover:text-primary py-3 block">Cikkek</a></li>
                     <li><a href="{{ route('register') }}" class="text-white hover:text-primary py-3 block" rel="nofollow">Regisztráció</a></li>
                     <li><a href="{{ route('login') }}" class="text-white hover:text-primary py-3 block" rel="nofollow">Belépés</a></li>
                 </ul>
